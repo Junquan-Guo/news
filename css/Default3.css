@@ -1,0 +1,160 @@
+﻿.content {
+    overflow: auto;
+}
+
+.all {
+    width: 1000px;
+    height: 1000px;
+    padding:0 20px 0 20px ;
+    border-left: 1px solid #d6d4cf;
+    border-right: 1px solid #d6d4cf;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.neck {
+    width: 1000px;
+    height: 120px;
+}
+
+.title {
+    width: 1000px;
+    height: 40px;
+    background: #eae9e6;
+    font: bold 20px 微软雅黑;
+    color: #999;
+    margin: 20px 0 0 0;
+    line-height: 40px;
+    border: 1px solid #ccc;
+
+}
+
+.a1 {
+    color: #000;
+    margin-left: 20px;
+}
+
+.title a:hover {
+    color: #F90;
+}
+
+.title span {
+    margin: 0 0 0 580px;
+    font: bold 14px 微软雅黑;
+}
+
+.title span a {
+    color: #999;
+}
+
+.cent{
+    width: 480px;
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    float: left;
+}
+.cent:nth-child(2n){
+    margin: 30px 0 0 15px;
+
+}
+
+.cent_img {
+    width: 260px;
+    height: 200px;
+    float: left;
+}
+
+.cent_cont {
+    width: 210px;
+    height: 200px;
+    float: right;
+    background: #eae9e6;
+    line-height: 25px;
+}
+
+.li_head {
+    margin: 15px 10px 10px 15px;
+}
+
+.li_head a{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.li_head a:hover {
+    color: #f8490b;
+}
+
+.li_cont {
+    width: 180px;
+    height: 80px;
+    margin-left: 15px;
+    color: #000;
+}
+
+.cent_div {
+    width: 75px;
+    height: 25px;
+    margin:20px 0 0 125px;
+    background-color: #F90;
+}
+
+.cent_div:hover {
+    background-color: #FFF;
+}
+
+.cent_div a {
+    margin-left: 8px;
+    line-height: 24px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cent_div a:hover {
+    color: #F90;
+}
+
+.bubufxPagerCss table
+{
+    text-align:center;
+    margin:auto;
+}
+.bubufxPagerCss table td
+{
+    border:0px;
+    padding:5px;
+}
+.bubufxPagerCss td
+{
+    border-bottom: #ffffff 3px solid;
+}
+
+.bubufxPagerCss tr td a:hover
+{
+    background-color: #F90;
+    color: #FFF;
+}
+
+.bubufxPagerCss a {
+    color: #F90;
+    text-decoration: none;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.bubufxPagerCss span {
+    color: #F90;
+    background-color: #ac1f24;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #333;
+}

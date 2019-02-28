@@ -1,0 +1,23 @@
+body, a, input, option, select, table, tr, table
+{
+	font:normal 11px Tahoma;
+}
+body {
+	background-color: #d7d3cc;
+}
+
+input.suggestion, select.suggestion, select.suggestion option
+{
+	width: 230px;
+}
+
+input.button
+{
+	width: 100px;
+	cursor: pointer;
+}
+td.highlight
+{
+	background-color: #DADADA;
+}
+

@@ -1,0 +1,276 @@
+﻿.content {
+    height: 1050px;
+   
+}
+
+.all {
+    width: 1000px;
+    height: 1050px;
+    padding:0 20px 0 20px ;
+    border-left: 1px solid #d6d4cf;
+    border-right: 1px solid #d6d4cf;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.left {
+    width: 270px;
+    height: 750px;
+    margin-top: 30px;
+    float: left;
+}
+
+.left_top, .left_cont, .left_cont2 {
+    width: 266px;
+    background: #eae9e6;
+    border: 1px solid #d6d4cf;
+
+}
+
+.left_top {
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+.left_top a {
+    color: #000000;
+    font: bold 16px 微软雅黑;
+    margin-left: 10px;
+}
+
+.left_top a:hover {
+    color: #F90;
+}
+
+.left_cont, .left_cont2 {
+    height: 340px;
+    margin-top: 20px;
+    font-family: "微软雅黑";
+}
+
+.left_cont h2, .left_cont2 h2 {
+    color: #808080;
+    line-height: 20px;
+    height: 20px;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0 20px 0;
+    margin: 10px 10px 0;
+}
+
+h2 span {
+    color: #f00;
+}
+
+.left_cont li, .left_cont3 li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.left_cont a, .left_cont2 li a {
+    color: #000000;
+}
+
+.left_cont a:hover {
+    padding-left: 10px;
+}
+
+.left_sort{
+    width:43px;
+    height:auto;
+    float:left;
+}
+
+.left_sort span:before {
+    content: "0";
+}
+/* 数字列表前面统一加0  */
+.left_sort li span {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-right: 10px;
+}
+
+.left_sort li:nth-child(-n+3) span {
+    width: 39px;
+    color: #999;
+}
+/* 选择从第3个开始倒数也就是第三个前面的 */
+.left_sort li:nth-child(-n+3) strong {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.left_sort li:first-child span {
+    color: #f8490b;
+}
+/* 选择第一个 */
+.left_sort li:nth-child(n+3) {
+    line-height: 24px;
+}
+/* 选择从第3个开始往后数 */
+.left_sort li:nth-child(4) {
+    margin: 5px 0 0 10px;
+}
+/* 选择第四个 */
+
+.left_sort1  {
+    width:222px;
+    height:auto;
+    float:left;
+}
+
+.left_cont2 li {
+    line-height: 24px;
+}
+
+.left_cont2  a {
+    padding: 0 5px;
+    color: #366;
+}
+
+.left_cont2 a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    width: 700px;
+    height: 800px;
+    margin-top: 30px;
+    float: right;
+}
+
+.right_top, .right_cont {
+    width: 696px;
+    background: #eae9e6;
+    border: 1px solid #ccc;
+}
+
+.right_top {
+    height: 40px;
+    font: bold 20px 微软雅黑;
+    line-height: 40px;
+    color: #666;
+}
+
+.right_cont {
+    height: 750px;
+    margin-top: 20px;
+}
+
+.right_cont2 {
+    width: 696px;
+    height: 170px;
+    border-bottom: 2px solid #ccc;
+}
+
+.right_cont2_img {
+    width: 200px;
+    height: 170px;
+    float: left;
+}
+
+.right_cont2_img img {
+    margin:10px 0 0 10px;
+}
+
+.right_cont2_font {
+    width: 450px;
+    height: 170px;
+    margin:0 20px;
+    float: right;
+}
+.li_head{
+    margin: 15px 0;
+}
+.li_head a{
+    font-size: 14px;
+    color: #F90;
+    line-height:20px;
+    margin: 15px 0 ;
+    font-weight: bold;
+}
+.li_head p{
+    float:right;
+    color:#808080;
+    padding-right:0px;
+    padding-left:10px;
+    font-weight: bold;
+    font-size:12px;
+}
+
+.li_head a:hover {
+    color: #f8490b;
+    text-decoration:underline;
+}
+
+.li_cont {
+    color: #333;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.li_cont a{
+    color:#366;
+}
+
+.li_cont a:hover{
+    text-decoration:underline;
+}
+
+.a1 {
+    color: #000;
+    margin-left: 20px;
+}
+
+.right_top a:hover {
+    color: #F90;
+}
+
+.neck {
+    width: 1000px;
+    height: 120px;
+}
+
+.bubufxPagerCss table
+{
+    text-align:center;
+    margin:auto;
+}
+.bubufxPagerCss table td
+{
+    border:0px;
+    padding:5px;
+}
+.bubufxPagerCss td
+{
+    border-bottom: #ffffff 3px solid;
+}
+
+.bubufxPagerCss tr td a:hover
+{
+    background-color: #F90;
+    color: #FFF;
+}
+
+.bubufxPagerCss a {
+    color: #F90;
+    text-decoration: none;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.bubufxPagerCss span {
+    color: #F90;
+    background-color: #ac1f24;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #333;
+}

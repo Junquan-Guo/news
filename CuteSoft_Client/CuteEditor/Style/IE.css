@@ -1,0 +1,15 @@
+.CuteEditorButtonDisabled 
+{
+	filter:gray alpha(opacity=25); opacity: .25; -moz-opacity: .25;
+	border:1px solid #f5f5f4;
+}
+.editimgDisabled 
+{
+	filter:gray alpha(opacity=25); opacity: .25; -moz-opacity: .25;
+}
+.filelistHeadCol A
+{
+	font:normal 11px Tahoma; 
+	cursor: default; 
+	color: windowtext;
+}

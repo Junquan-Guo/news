@@ -1,0 +1,785 @@
+
+/*
+-----------------------------------------------------
+Author: Lewis E. Moten III
+Date: May, 16, 2004
+Homepage: http://www.lewismoten.com
+Email: lewis@moten.com
+-----------------------------------------------------
+*/
+
+/*
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+*/
+
+#pnlRecent DIV
+{
+	width: 12px;
+	height: 12px;
+	border: solid 1px black;
+	background-color: ButtonFace;
+}
+#pnlRecentBorder DIV
+{
+	width: 14px;
+	height: 14px;
+	border: 1px inset;
+	background-color: ButtonFace;
+}
+#pnlRecentBorder
+{
+	top: 222px;
+	left: 316px;
+	width: 160px;
+	height: 70px;
+}
+
+#pnlRecent
+{
+	top: 223px;
+	left: 317px;
+	width: 160px;
+	height: 70px;
+}
+#lblRecent
+{
+	top: 204px;
+	left: 317px;
+	width: 80px;
+	height: 16px;
+}
+#pnlRecent1{top: 0px;left: 0px;}
+#pnlRecent2{top: 0px;left: 20px;}
+#pnlRecent3{top: 0px;left: 40px;}
+#pnlRecent4{top: 0px;left: 60px;}
+#pnlRecent5{top: 0px;left: 80px;}
+#pnlRecent6{top: 0px;left: 100px;}
+#pnlRecent7{top: 0px;left: 120px;}
+#pnlRecent8{top: 0px;left: 140px;}
+
+#pnlRecent9{top: 18px;left: 0px;}
+#pnlRecent10{top: 18px;left: 20px;}
+#pnlRecent11{top: 18px;left: 40px;}
+#pnlRecent12{top: 18px;left: 60px;}
+#pnlRecent13{top: 18px;left: 80px;}
+#pnlRecent14{top: 18px;left: 100px;}
+#pnlRecent15{top: 18px;left: 120px;}
+#pnlRecent16{top: 18px;left: 140px;}
+
+#pnlRecent17{top: 36px;left: 0px;}
+#pnlRecent18{top: 36px;left: 20px;}
+#pnlRecent19{top: 36px;left: 40px;}
+#pnlRecent20{top: 36px;left: 60px;}
+#pnlRecent21{top: 36px;left: 80px;}
+#pnlRecent22{top: 36px;left: 100px;}
+#pnlRecent23{top: 36px;left: 120px;}
+#pnlRecent24{top: 36px;left: 140px;}
+
+#pnlRecent25{top: 54px;left: 0px;}
+#pnlRecent26{top: 54px;left: 20px;}
+#pnlRecent27{top: 54px;left: 40px;}
+#pnlRecent28{top: 54px;left: 60px;}
+#pnlRecent29{top: 54px;left: 80px;}
+#pnlRecent30{top: 54px;left: 100px;}
+#pnlRecent31{top: 54px;left: 120px;}
+#pnlRecent32{top: 54px;left: 140px;}
+
+#pnlRecentBorder1{top: 0px;left: 0px;}
+#pnlRecentBorder2{top: 0px;left: 20px;}
+#pnlRecentBorder3{top: 0px;left: 40px;}
+#pnlRecentBorder4{top: 0px;left: 60px;}
+#pnlRecentBorder5{top: 0px;left: 80px;}
+#pnlRecentBorder6{top: 0px;left: 100px;}
+#pnlRecentBorder7{top: 0px;left: 120px;}
+#pnlRecentBorder8{top: 0px;left: 140px;}
+
+#pnlRecentBorder9{top: 18px;left: 0px;}
+#pnlRecentBorder10{top: 18px;left: 20px;}
+#pnlRecentBorder11{top: 18px;left: 40px;}
+#pnlRecentBorder12{top: 18px;left: 60px;}
+#pnlRecentBorder13{top: 18px;left: 80px;}
+#pnlRecentBorder14{top: 18px;left: 100px;}
+#pnlRecentBorder15{top: 18px;left: 120px;}
+#pnlRecentBorder16{top: 18px;left: 140px;}
+
+#pnlRecentBorder17{top: 36px;left: 0px;}
+#pnlRecentBorder18{top: 36px;left: 20px;}
+#pnlRecentBorder19{top: 36px;left: 40px;}
+#pnlRecentBorder20{top: 36px;left: 60px;}
+#pnlRecentBorder21{top: 36px;left: 80px;}
+#pnlRecentBorder22{top: 36px;left: 100px;}
+#pnlRecentBorder23{top: 36px;left: 120px;}
+#pnlRecentBorder24{top: 36px;left: 140px;}
+
+#pnlRecentBorder25{top: 54px;left: 0px;}
+#pnlRecentBorder26{top: 54px;left: 20px;}
+#pnlRecentBorder27{top: 54px;left: 40px;}
+#pnlRecentBorder28{top: 54px;left: 60px;}
+#pnlRecentBorder29{top: 54px;left: 80px;}
+#pnlRecentBorder30{top: 54px;left: 100px;}
+#pnlRecentBorder31{top: 54px;left: 120px;}
+#pnlRecentBorder32{top: 54px;left: 140px;}
+
+#pnlVerticalRgb_Start
+{
+	top: 32px;
+	left: 282px;
+	height: 256px;
+	width: 19px;
+	background-color: white;
+	z-index: 3;
+}
+#pnlVerticalRgb_End
+{
+	top: 32px;
+	left: 282px;
+	height: 256px;
+	width: 19px;
+	background-color: cyan;
+	z-index: 4;
+	FILTER: Alpha(Opacity=0, FinishOpacity=100, Style=1, startX=0, finishX=0, startY=0, finishY=100); 
+}
+#pnlGradientRgb_Base
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	z-index: 3;
+	background-image: url(Load.ashx?type=image&file=cpie_gradients.png);
+}
+#pnlGradientRgb_Overlay1
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	z-index: 5;
+	background-color: White;
+	FILTER: Alpha(Opacity=0, FinishOpacity=100, Style=0, startX=0, finishX=0, startY=0, finishY=100); 
+}
+#pnlGradientRgb_Overlay2
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	z-index: 6;
+	background-color: Black;
+	FILTER: Alpha(Opacity=0, FinishOpacity=100, Style=1, startX=0, finishX=0, startY=0, finishY=100); 
+}
+#pnlGradientRgb_Invert
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	z-index: 4;
+	background-image: url(Load.ashx?type=image&file=cpie_gradients.png);
+	filter: flipH() flipV() invert() Alpha(Opacity=50); 
+}
+#pnlVerticalHsbBrightness_Black
+{
+	top: 32px;
+	left: 282px;
+	height: 256px;
+	width: 19px;
+	background-color: Black;
+	FILTER: Alpha(Opacity=100, FinishOpacity=0, Style=1, startY=100, finishY=0, startX=0, finishX=0); 
+	z-index: 4;
+}
+#pnlVerticalHsbBrightness_Hue
+{
+	top: 32px;
+	left: 282px;
+	height: 256px;
+	width: 19px;
+	background-color: 0006FF;
+	z-index: 3;
+}
+/*
+=====================================================
+*/
+#pnlVerticalHsbSaturation_White
+{
+	top: 32px;
+	left: 282px;
+	height: 256px;
+	width: 19px;
+	background-color: White;
+	FILTER: Alpha(Opacity=100, FinishOpacity=0, Style=1, startY=100, finishY=0, startX=0, finishX=0); 
+	z-index: 4;
+}
+#pnlVerticalHsbSaturation_Hue
+{
+	top: 32px;
+	left: 282px;
+	height: 256px;
+	width: 19px;
+	background-color: 0006FF;
+	z-index: 3;
+}
+/*
+--------------------------------------------
+Buttons
+--------------------------------------------
+*/
+#btnOK
+{
+	top: 10px;
+	left: 390px;
+	border: 2px bevel;
+	width: 81px;
+	height: 20px;
+}
+
+#btnCancel
+{
+	top: 38px;
+	left: 390px;
+	color: ButtonText;
+	border: 2px bevel;
+	width: 81px;
+	height: 20px;
+}
+#btnWebSafeColor
+{
+	border-style: none;
+	border-width: 0px;
+	background-image: url(Load.ashx?type=image&file=cpie_WebSafe.gif);
+	width: 11px;
+	height: 12px;
+	left: 347px;
+	top: 11px;
+}
+/*
+--------------------------------------------
+Basic Controls
+--------------------------------------------
+*/
+#lblSelectColorMessage
+{
+	top: 10px;
+	left: 10px;
+}
+#pnlOldColor
+{
+	top: 65px;
+	left: 317px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	background-color: 00013A;
+	width: 60px;
+	height: 34px;
+	z-index: 2;
+}
+#pnlOldColorBorder
+{
+	top: 65px;
+	left: 316px;
+	border-left: 1px solid ThreeDShadow;
+	border-bottom: 1px solid ThreeDHighlight;
+	border-right: 1px solid ThreeDHighlight;
+	width: 62px;
+	height: 35px;
+	z-index: 1;
+}
+#pnlNewColor
+{
+	background-color: #2729AD;
+	top: 31px;
+	left: 317px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	width: 60px;
+	height: 34px;
+	z-index: 2;
+}
+#pnlNewColorBorder
+{
+	top: 30px;
+	left: 316px;
+	border-left: 1px solid ThreeDShadow;
+	border-top: 1px solid ThreeDShadow;
+	border-right: 1px solid ThreeDHighlight;
+	width: 62px;
+	height: 35px;
+	z-index: 1;
+}
+#pnlWebSafeColor
+{
+	top: 11px;
+	left: 363px;
+	width: 12px;
+	height: 12px;
+	border: solid 1px black;
+	background-color: #333399;
+	z-index: 2;
+}
+#pnlWebSafeColorBorder
+{
+	top: 10px;
+	left: 362px;
+	width: 14px;
+	height: 14px;
+	border-left: 1px solid ThreeDShadow;
+	border-top: 1px solid ThreeDShadow;
+	border-right: 1px solid ThreeDHighlight;
+	border-bottom: 1px solid ThreeDHighlight;
+	z-index: 1;
+}
+#pnlVerticalPosition
+{
+	width: 35px;
+	height: 11px;
+	background-image: url(Load.ashx?type=image&file=cpie_VerticalPosition.gif);
+	left: 274px;
+	top: 113px;
+}
+#pnlGradientPosition
+{
+	width: 256px;
+	height: 256px;
+	background-image: url(Load.ashx?type=image&file=cpie_GradientPositionLight.gif);
+	background-repeat: no-repeat;
+	left: 12px;
+	top: 32px;
+	z-index: 98;
+}
+/*
+--------------------------------------------
+Gradient
+--------------------------------------------
+*/
+#pnlGradient_Top
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	cursor: url(Load.ashx?type=image&file=cpie_Color.cur);
+	z-index: 99;
+}
+.GradientNormal
+{
+}
+.GradientFullScreen
+{
+	top: 0px ! important;
+	left: 0px ! important;
+	height: 100% ! important;
+	width: 100% ! important;
+	z-index: 100;
+	cursor: url(Load.ashx?type=image&file=cpie_Color.cur) ! important;
+	
+}
+#pnlGradient_Background2
+{
+	top: 31px;
+	left: 11px;
+	height: 258px;
+	width: 258px;
+	z-index: 2;
+	border: solid 1px black;
+}
+#pnlGradient_Background1
+{
+	top: 30px;
+	left: 10px;
+	height: 260px;
+	width: 260px;
+	z-index: 1;
+	border: solid 1px;
+	border-top-color: ThreeDShadow;
+	border-left-color: ThreeDShadow;
+	border-bottom-color: ThreeDHighlight;
+	border-right-color: ThreeDHighlight;
+}
+/*
+--------------------------------------------
+Vertical Bar
+--------------------------------------------
+*/
+#pnlVertical_Top
+{
+	left: 272px;
+	width: 39px;
+	z-index: 98;
+	top: 0px;
+	height: 310px;
+}
+/*
+	top:32px;
+	height: 256px;
+*/
+
+#pnlVertical_Background2
+{
+	top: 31px;
+	left: 281px;
+	height: 258px;
+	width: 21px;
+	z-index: 2;
+	border: solid 1px black;
+}
+#pnlVertical_Background1
+{
+	top: 30px;
+	left: 280px;
+	height: 260px;
+	width: 23px;
+	z-index: 1;
+	border: solid 1px;
+	border-top-color: ThreeDShadow;
+	border-left-color: ThreeDShadow;
+	border-bottom-color: ThreeDHighlight;
+	border-right-color: ThreeDHighlight;
+}
+/*
+--------------------------------------------------------
+Color Mode: Hue / Saturation / Brightness (HSB)
+--------------------------------------------------------
+*/
+#pnlVerticalHsbHue_Background
+{
+	top: 32px;
+	left: 282px;
+	height: 19px;
+	width: 256px;
+	z-index: 3;
+	background-image: url(Load.ashx?type=image&file=cpie_gradients.png);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#pnlGradientHsbHue_Black
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	background-color: Black;
+	FILTER: Alpha(Opacity=100, FinishOpacity=0, Style=1, startY=100, finishY=0, startX=0, finishX=0); 
+	z-index: 5;
+}
+#pnlGradientHsbHue_White
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	background-color: White;
+	FILTER: Alpha(Opacity=100, FinishOpacity=0, Style=1, startX=0, finishX=100, startY=0, finishY=0); 
+	z-index: 4;
+}
+#pnlGradientHsbHue_Hue
+{
+	top: 32px;
+	left: 12px;
+	height: 256px;
+	width: 256px;
+	background-color: 0006FF;
+	z-index: 3;
+}
+#pnlHSB
+{
+	top: 115px;
+	left: 317px;
+	width: 80px;
+	height: 75px;
+}
+#pnlHSB_Hue
+{
+	top: 0px;
+	width: 80px;
+	height: 22px;
+}
+#pnlHSB_Saturation
+{
+	top: 25px;
+	width: 80px;
+	height: 22px;
+}
+#pnlHSB_Brightness
+{
+	top: 50px;
+	width: 80px;
+	height: 22px;
+}
+#rdoHSB_Hue
+{
+	background-color: ButtonFace;
+	color: ButtonText;
+	cursor: default;
+	top: 5px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+}
+#lblHSB_Hue
+{
+	top: 0px;
+	left: 0px;
+	padding-top: 4px;
+	padding-left: 16px;
+	height: 22px;
+	width: 37px;
+}
+#txtHSB_Hue
+{
+	top: 0px;
+	left: 37px;
+	border-style: inset;
+	border-width: 2px;
+	width: 31px;
+	height: 22px;
+}
+#lblUnitHSB_Hue
+{
+	top: 4px;
+	left: 70px;
+	font-size: 10pt;
+}
+#rdoHSB_Saturation
+{
+	background-color: ButtonFace;
+	color: ButtonText;
+	cursor: default;
+	top: 5px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+}
+#lblHSB_Saturation
+{
+	top: 0px;
+	left: 0px;
+	padding-top: 4px;
+	padding-left: 16px;
+	height: 22px;
+	width: 37px;
+}
+#txtHSB_Saturation
+{
+	top: 0px;
+	left: 37px;
+	border-style: inset;
+	border-width: 2px;
+	width: 31px;
+	height: 22px;
+}
+#lblUnitHSB_Saturation
+{
+	top: 4px;
+	left: 70px;
+}
+#rdoHSB_Brightness
+{
+	background-color: ButtonFace;
+	color: ButtonText;
+	cursor: default;
+	top: 5px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+}
+#lblHSB_Brightness
+{
+	top: 0px;
+	left: 0px;
+	padding-top: 4px;
+	padding-left: 16px;
+	height: 22px;
+	width: 37px;
+}
+#txtHSB_Brightness
+{
+	top: 0px;
+	left: 37px;
+	border-style: inset;
+	border-width: 2px;
+	width: 31px;
+	height: 22px;
+}
+#lblUnitHSB_Brightness
+{
+	top: 4px;
+	left: 70px;
+}
+/*
+--------------------------------------------------------
+Color Mode: Red / Green / Blue (RGB a.k.a. additive)
+--------------------------------------------------------
+*/
+#pnlRGB
+{
+	top: 115px;
+	left: 400px;
+	width: 75px;
+	height: 75px;
+}
+#pnlRGB_Red
+{
+	top: 0px;
+	left: 0px;
+	width: 75px;
+	height: 22px;
+}
+#pnlRGB_Green
+{
+	top: 25px;
+	left: 0px;
+	width: 75px;
+	height: 22px;
+}
+#pnlRGB_Blue
+{
+	top: 50px;
+	left: 0px;
+	width: 75px;
+	height: 22px;
+}
+#rdoRGB_Red
+{
+	background-color: ButtonFace;
+	color: ButtonText;
+	cursor: default;
+	top: 5px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+}
+#lblRGB_Red
+{
+	top: 0px;
+	left: 0px;
+	padding-top: 4px;
+	padding-left: 16px;
+	height: 22px;
+	width: 37px;
+}
+#txtRGB_Red
+{
+	top: 0px;
+	left: 37px;
+	border-style: inset;
+	border-width: 2px;
+	width: 31px;
+	height: 22px;
+}
+#rdoRGB_Green
+{
+	background-color: ButtonFace;
+	color: ButtonText;
+	cursor: default;
+	top: 5px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+}
+#lblRGB_Green
+{
+	top: 0px;
+	left: 0px;
+	padding-top: 4px;
+	padding-left: 16px;
+	height: 22px;
+	width: 37px;
+}
+#txtRGB_Green
+{
+	top: 0px;
+	left: 37px;
+	border-style: inset;
+	border-width: 2px;
+	width: 31px;
+	height: 22px;
+}
+#rdoRGB_Blue
+{
+	background-color: ButtonFace;
+	color: ButtonText;
+	cursor: default;
+	top: 5px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+}
+#lblRGB_Blue
+{
+	top: 0px;
+	left: 0px;
+	padding-top: 4px;
+	padding-left: 16px;
+	height: 22px;
+	width: 37px;
+}
+#txtRGB_Blue
+{
+	top: 0px;
+	left: 37px;
+	border-style: inset;
+	border-width: 2px;
+	width: 31px;
+	height: 22px;
+}
+/*
+--------------------------------------------------------
+Color Mode: Hex (Hex values of RGB a.k.a. HTML Color value)
+--------------------------------------------------------
+*/
+#lblHex
+{
+	top: 195px;
+	left: 400px;
+}
+#txtHex
+{
+	top: 195px;
+	left: 412px;
+	border-style: inset;
+	border-width: 2px;
+	width: 56px;
+	height: 22px;
+}
+
+
+
+#colorpickerpanel DIV
+{
+	position: absolute;
+	font-family: "Photoshop Large", Arial;
+	font-size: 8pt;
+	color: ButtonText;
+	cursor: default;
+	overflow: hidden;
+}
+#colorpickerpanel INPUT
+{
+	position: absolute;
+	font-family: "Photoshop Large", Arial;
+	font-size: 8pt;
+	color: WindowText;
+	background-color: Window;
+	cursor: text;
+	text-align: right;
+}
+#colorpickerpanel BUTTON
+{
+	position: absolute;
+	font-family: "Photoshop Large", Arial;
+	font-size: 8pt;
+	color: ButtonText;
+	cursor: default;
+	background-color:ButtonFace;
+	text-align: center;
+}
+
+#btnOK
+{
+	display:none;
+}
+#btnCancel
+{
+	display:none;
+}

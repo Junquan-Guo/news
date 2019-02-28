@@ -1,0 +1,514 @@
+﻿/*头部*/
+.header {
+    background-color: #282829;
+    width: 100%;
+}
+
+.head {
+    height: 100px;
+    width: 1080px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.logo {
+    height: 43px;
+    width: 46px;
+    float:left;
+    padding-top: 16px;
+}
+
+.logo_title {
+    width: 200px;
+    height: 43px;
+    float: left;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+.logo_title .logo_li {
+    color: #fff;
+    font-size: 32px;
+}
+
+.logo_title .logo_li1 {
+    color: #CCC;
+    font-size: 12px;
+}
+
+.search1 {
+    width: 650px;
+    margin: 20px auto;
+    float: left;
+}
+
+#txtsearch{
+    width: 420px;
+    height: 38px;
+    line-height: 36px;
+    background: #fff;
+    border: 1px solid #666;
+    font-size: 16px;
+    color: #333;
+    left: 10px;
+    right: 10px;
+    padding: 0 10px;
+}
+
+#btnsearch{
+    width: 104px;
+    height: 38px;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 38px;
+    border: none;
+    background-color: #F90;
+}
+
+#btnsearch:hover {
+    background: #ff6a00;
+    cursor:pointer;
+}
+
+.user {
+    position: absolute;
+    top: 20px;
+    right: 0px; 
+    width:120px; 
+}
+
+.user a {
+    color:#edede3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:14px;
+    height:40px;
+    line-height:40px;
+}
+
+.user a:hover {
+    color:#ffffff;
+}
+
+.user a #Image1{
+    border-radius:25px;
+    height:40px;
+    width:40px;
+}
+.user a cite {
+    padding: 0 5px;
+}
+
+.user .layui-nav-more{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid dashed dashed;
+    border-color: #c2c2c2 transparent transparent;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: absolute;
+    top: 20px;
+    right: 3px;
+    margin-left:50px;
+    border-width: 6px;
+}
+
+.list .top{
+	position: relative;
+	display: block;
+	height: 42px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: transparent;
+	background-image: url(../images/redslate_background.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.list .top ul{
+	padding: 0;
+	list-style-type: none;
+	width: 960px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.list .top ul li{display:block;float:left;margin:0 1px 0 0;}
+.list .top ul li a{
+	display: block;
+	float: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 14px 22px 0 22px;
+	height: 28px;
+	font-size: 14px;
+}
+.list .top ul li a:hover,.list .top ul a.current{
+	color: #fff;
+	background-color: transparent;
+	background-image: url(../images/redslate_backgroundOVER.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+/*尾部*/
+.footer {
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-color: #fafaf9;
+    margin: 0 auto;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.footer li {
+    float: left;
+    margin: 0 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.footer li a{
+    color:#666;
+}
+
+.footer li a:link {
+    color: #333;
+}
+
+.footer li a:hover {
+    color: #F60;
+    text-decoration:underline;
+}
+
+.top {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.end {
+    color: #000;
+    text-align: center;
+    background-color: #fafaf9;
+    height: 170px;
+    font-family: "楷书";
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.end p, .end p a {
+    color: #999;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.end a, .end span {
+    color: #333;
+    font-weight: lighter;
+}
+
+.end a:hover {
+    text-decoration: underline;
+}
+
+.end span {
+    cursor: default;
+}
+
+.footer-bottom .bottom {
+    text-align: center;
+    width: 1000px;
+    margin: 0px auto;
+    height: auto;
+}
+
+.footer-bottom {
+    background: #282829;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+}
+
+.bottom li {
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+    margin: 10px 0px 10px 150px;
+}
+
+.pop-up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.login_con {
+    width: 360px;
+    height:373px;
+    background-image:url("../images/dl_bg.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.login_con .user_title{
+    width:300px;
+    color: #ff6a00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    padding:25px 0 10px;
+    margin:0 auto;
+    border-bottom: solid 2px #CCCCCC;
+
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+}
+
+.login_con input[type="text"] {
+    width: 300px;
+    height: 40px;
+    margin: 20px auto 0;
+    padding-left:5px;
+    background-repeat: no-repeat;
+    background-color: rgb(249,249,250);
+    box-shadow: none;
+    border: solid 1px #CCCCCC;
+}
+
+.login_con input[type="text"]:focus {
+    outline: none;
+}
+
+.login_con input[type="text"]:first-of-type {
+    background-image: url("image/u.png");
+}
+
+.login_con input[type="text"]:nth-of-type(2) {
+    background-image: url("image/p.png");
+}
+
+.login_con input[type="submit"] {
+    width: 300px;
+    height: 40px;
+    background-color: #e23703;
+    outline: none;
+    border: none;
+    color: white;
+    margin:0 0 10px ;
+}
+
+.login_con input[type="submit"]:hover {
+    background-color: red;
+    cursor:pointer;
+}
+
+.form_check_ipt{
+	width: 300px;
+	margin:  10px auto;
+	overflow: hidden;
+}
+
+.check_left {
+    float:left;
+    height:20px;
+    line-height:20px;
+}
+
+.check_right {
+    float:right;
+    height:20px;
+    line-height:20px;
+}
+
+.pop-up2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.user_xx {
+    width: 274px;
+    height:378px;
+    background-image:url("../images/gb_bg.png");
+    text-align: center;
+    position: relative;
+    top:67px;
+    left:75%;
+}
+
+.user2{
+    width: 274px;
+    height: 42px;
+    padding:30px 20px 0;
+}
+
+.user2 a {
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:16px;
+    height:43px;
+    line-height:43px;
+}
+
+.user2 a:hover {
+    color:#7d8181;
+}
+
+.user2 a #Image2{
+    float:left;
+    border-radius:25px;
+    height:43px;
+    width:43px;
+}
+
+.user2 a cite {
+    float:left;
+    padding: 0 15px;
+}
+
+.user2 a cite:nth-child(2n+1) {
+    float:left;
+    width:64px;
+    height:28px;
+    line-height:28px;
+    color:#666;
+    background:#fff;
+    border:solid 1px #CCC;
+    margin:10px 20px 0;
+    padding: 0 10px;
+}
+
+.user2 a cite:nth-child(2n+1):hover {
+    color:#F90;
+    background:#edede3;
+
+}
+
+.tongzhi {
+    width: 274px;
+    height:37px;
+    margin:20px 0;
+}
+
+.tongzhi dl {
+    width:90px;
+    height:37px;
+    margin:0 auto;
+    padding:0;
+    float:left;
+}
+
+.tongzhi dl:hover {
+    background:#CCC;
+    cursor:pointer;
+}
+
+.tongzhi dl:nth-child(1),.tongzhi dl:nth-child(2) {
+    border-right:solid 1px #CCC;
+}
+
+.tongzhi dl dt {
+    font-size:16px;
+}
+
+.tongzhi dl dd {
+    width:90px;
+    margin:0 auto;
+}
+
+.xinxi{
+    width: 274px;
+    height:160px;
+    margin:20px 0;
+    padding:0;
+}
+
+.xinxi dl{
+    width: 274px;
+    height:40px;
+    line-height:40px;
+    clear:left; 
+    margin:0;
+    padding:0;
+}
+
+.xinxi dl:hover{
+    background:#CCC;
+    cursor:pointer;
+}
+
+.xinxi dt, .xinxi dd {
+    height:40px;
+    float:left;
+    margin:0 25px;
+}
+
+.xinxi dt{
+    width: 100px;
+    text-align:left;
+}
+
+.xinxi dt a {
+    color:#333;
+}
+
+.xinxi dd{
+    width: 60px;
+    text-align:right;
+}
+
+.xinxi dl:nth-child(1),.xinxi dl:nth-child(3) {
+    border-top:solid 1px #CCC;
+}
+
+.xinxi dl:nth-child(4) {
+    border-bottom:solid 1px #CCC;
+}
+
+.user_xx input[type="submit"] {
+    width: 250px;
+    height: 40px;
+    background-color: #e23703;
+
+    outline: none;
+    border: none;
+    color: white;
+    margin:0;
+}
+
+.user_xx input[type="submit"]:hover {
+    background-color: red;
+    cursor:pointer;
+}

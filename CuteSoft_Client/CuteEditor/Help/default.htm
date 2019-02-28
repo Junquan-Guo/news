@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Cute Editor Menus and Toolbars </title>
+		<meta name="KEYWORDS" content="ASP.NET, HTML, WYSIWYG, Editor, richtextbox, HTML Editor, ASP.NET Content Management,ASP.NET WYSIWYG" />
+		<meta name="DESCRIPTION" content="Menus and Toolbars" />
+		<style type="text/css"> 
+			td { font:normal 12px Arial; vertical-align:top;}
+			body {margin:1px;padding:0;}
+	    </style>
+	</head>
+	<body>
+		<div><img alt="" src="../Load.ashx?type=image&file=standardtoolbar.gif" /></div>		
+        <table cellSpacing="1" width="740" cellPadding="4" border="1" bgcolor="#f8f8f8">
+            <tbody>
+                <tr bgcolor="#efefef">
+                    <td><strong>Menu/Button</strong></td>
+                    <td><strong>Function Description</strong></td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=save.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Save</strong></td>
+                    <td>Saves the active content in the editor's content area</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=newdoc.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>New Document</strong></td>
+                    <td>Creates a new document</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=print.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Print</strong></td>
+                    <td>Prints the current page.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=bspreview.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Preview</strong></td>
+                    <td>Previews the current page.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=find.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Find and replace</strong></td>
+                    <td>Finds and allows replacements of text in the editor's content area.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=fit.gif" align="absMiddle" border="0"  alt="" />&nbsp;Full-Screen</strong></td>
+                    <td>Edits in full screen mode, maximizing your available space.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=cleanup.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Code Cleaner</strong></td>
+                    <td>Cleans up all "garbage" HTML-tags.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=spell.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Spell</strong> </td>
+                    <td>Launchs the spell checker.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=cut.gif" align="absMiddle" border="0"  alt="" /> <strong>Cut</strong></td>
+                    <td>Performs normal function of cutting.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=copy.gif" align="absMiddle" border="0"  alt="" /> <strong>Copy</strong></td>
+                    <td>Copies the current selection and stores it in the clipboard.</td>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=paste.gif" align="absMiddle" border="0"  alt="" /> <strong>Paste</strong></td>
+                    <td>Inserts content from the clipboard into the editor at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=PasteText.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Paste Plain Text</strong></td>
+                    <td>Pastes plain text (no formatting) into the editor.
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=Pasteword.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Paste from word</strong></td>
+                    <td>Pastes the content copied form the Microsoft Word and removes any web-unfriendly tags.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=PasteAsHtml.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Paste as HTML</strong></td>
+                    <td>The content will be inserted into Cute Editor as HTML source. </td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=delete.gif" align="absMiddle" border="0"  alt="" /> <strong>Delete</strong></td>
+                    <td>Deletes the current selection.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=undo.gif" align="absMiddle" border="0"  alt="" /> <strong>Undo</strong></td>
+                    <td>Undoes the last operation in the editor.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=redo.gif" align="absMiddle" border="0"  alt="" /> <strong>Redo</strong></td>
+                    <td>Redoes the previously undone action.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=InsertPageBreak.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Insert Page Break</strong></td>
+                    <td>Inserts a print page break</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=insertdate.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Insert the current date</strong></td>
+                    <td>Inserts the current date. The date format used is the date format configured on the client's machine.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=timer.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Insert the current time</strong></td>
+                    <td>Inserts the current time. The time format used is the time format configured on the client's machine.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=emotion.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert Emotion</strong></td>
+                    <td>Inserts an emotion image at the selected position in the editor.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=keyboard.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Universal Keyboard</strong></td>
+                    <td>Universal Online Keyboard.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=box.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Box Formatting</strong></td>
+                    <td>Box Formatting.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=layer.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>insert a layer </strong></strong></td>
+                    <td>Allows you to insert a layer (absolutely-positioned div).</td>
+                </tr>
+                
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=borders.gif" align="absMiddle" border="0"  alt="" /> <strong>Visible Borders</strong></td>
+                    <td>Makes table borders visible, which can make editing easier.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=specialchar.gif" align="absMiddle" border="0"  alt="" /> <strong>Special Chars</strong></td>
+                    <td>Inserts a special character from a predefined list.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=groupbox.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>GroupBox</strong></strong></td>
+                    <td>Allows you to a group box (FieldSet) at the selected position in the editor.</td>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=image.gif" align="absMiddle" border="0"  alt="" />&nbsp;Insert Image </strong></td>
+                    <td>Inserts a local image from the image gallery folder; thumbnail images are dynamically created and supports uploading of new images.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=eximage.gif" align="absMiddle" border="0"  alt="" />&nbsp;Insert Image </strong></td>
+                    <td>Inserts an image at the selected position in the editor and allows you to set it's properties.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=flash.gif" align="absMiddle" border="0"  alt="" />&nbsp;Insert Flash</strong></td>
+                    <td>Inserts a Flash Animation at the selected position and allows you to set it's properties.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=media.gif" align="absMiddle" border="0"  alt="" />&nbsp;Insert Media</strong></td>
+                    <td>Inserts a Windows Media object&nbsp;at the selected position and allows you to set it's properties.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=document.gif" align="absMiddle" border="0"  alt="" />&nbsp;Insert Document</strong></td>
+                    <td>Inserts a link to a document on the server (PDF,DOC, ZIP,etc.) at the selected position .</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=template.gif" align="absMiddle" border="0"  alt="" />&nbsp;Insert Template</strong></td>
+                    <td>Loads the predefined templates into the current selection. </td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=youtube.gif" align="absMiddle" border="0"  alt="" />&nbsp;YouTube</strong></td>
+                    <td>Embed a youtube video </td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=instable.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert Table</strong></td>
+                    <td>Inserts a table into your web page.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=insrow_t.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert Rows</strong></td>
+                    <td>Inserts a row above the selected row in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=insrow_b.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Insert Row Below</strong></td>
+                    <td>Inserts a row below the selected row in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=delrow.gif" align="absMiddle" border="0"  alt="" /> <strong>Delete Rows</strong></td>
+                    <td>Deletes the selected row in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=inscol_l.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Insert Column to the Left</strong></td>
+                    <td>Inserts a column to the left of the selected cell in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=inscol_r.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Insert Column to the Right</strong></td>
+                    <td>Inserts a column to the right of the selected cell in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=delcol.gif" align="absMiddle" border="0"  alt="" /> <strong>Delete columns</strong></td>
+                    <td>Deletes the selected column in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=inscell.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert cells</strong></td>
+                    <td>Inserts cells into the selected row in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=delcell.gif" align="absMiddle" border="0"  alt="" /> <strong>Delete cells</strong></td>
+                    <td>Deletes the selected cell in a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=row.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Row properties</strong></td>
+                    <td>Edits row properties of a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=cell.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong><strong>Cell properties</strong></strong></td>
+                    <td>Edits cell properties of a table.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=mrgcell_r.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Merge right</strong></td>
+                    <td>Merges the current cell with the cell to its right.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=mrgcell_b.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Merge&nbsp;below</strong></td>
+                    <td>Merges the current cell with the cell below it.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=spltcell_r.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Horizontal split </strong></td>
+                    <td>Splits a cell into columns.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=spltcell_b.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Vertical split</strong></td>
+                    <td>Splits a cell into&nbsp;rows.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=break.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Break</strong></td>
+                    <td>Inserts a line break.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=paragraph.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Paragraph</strong></td>
+                    <td>Inserts a paragraph</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=left_to_right.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Direction left to right</strong></td>
+                    <td>Direction of text is left to right.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=right_to_left.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Direction right to left</strong></td>
+                    <td>Direction of text is right to left.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=form.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Form</strong></td>
+                    <td>Inserts a form at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=textarea.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>TextArea</strong></td>
+                    <td>Inserts a textarea at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=textbox.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Input Text Box</strong></td>
+                    <td>Inserts an input text box at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=passwordfield.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Password field </strong></td>
+                    <td>Inserts a password field at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=hiddenfield.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Hidden field </strong></td>
+                    <td>Inserts a hidden field at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=listbox.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>ListBox</strong></td>
+                    <td>Inserts a list box at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=dropdownbox.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Dropdown Box</strong></td>
+                    <td>Inserts a dropdown box at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=optionbutton.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Radio Button</strong></td>
+                    <td>Inserts a radio button at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=checkbox.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Checkbox</strong></td>
+                    <td>Inserts a checkbox at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=imagebutton.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Image Button</strong></td>
+                    <td>Inserts an image button at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=submit.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Submit Button</strong></td>
+                    <td>Inserts a submit button at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=reset.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Reset Button</strong></td>
+                    <td>Inserts a reset button at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=pushbutton.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Input Button</strong></td>
+                    <td>Inserts aninput button at the selected position.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=page.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Page Properties</strong></td>
+                    <td>Allows you modify the page properties.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=bold.gif" align="absMiddle" border="0"  alt="" /> <strong>Bold</strong></td>
+                    <td>Bolds the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=italic.gif" align="absMiddle" border="0"  alt="" /> <strong>Italicize</strong></td>
+                    <td>Italicizes the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=under.gif" align="absMiddle" border="0"  alt="" /> <strong>Underline</strong></td>
+                    <td>Underlines the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=left.gif" align="absMiddle" border="0"  alt="" /> <strong>Left Justify</strong></td>
+                    <td>Aligns the selected content to the left.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=center.gif" align="absMiddle" border="0"  alt="" /> <strong>Center</strong></td>
+                    <td>Centers the selected content.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=right.gif" align="absMiddle" border="0"  alt="" /> <strong>Right Justify</strong></td>
+                    <td>Aligns the selected content to the right</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=justifyfull.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Justify Full</strong></td>
+                    <td>Justify Full.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=justifynone.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Justify None</strong></td>
+                    <td>Justify None.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=unformat.gif" align="absMiddle" border="0"  alt="" /> <strong>Remove Format</strong></td>
+                    <td>Removes formatting from the selected text.</td>
+                </tr>
+                <tr>
+                    <td><span style="background-color: red"><img src="../Load.ashx?type=theme&file=fontcolor.gif" align="absMiddle" border="0"  alt="" /></span><img src="../Load.ashx?type=theme&file=tbdown.gif" align="absMiddle" border="0"  alt="" /> <strong>Font Color</strong></td>
+                    <td>Changes the color of the selected text to desired color.</td>
+                </tr>
+                <tr>
+                    <td><span style="background-color: yellow"><img src="../Load.ashx?type=theme&file=colorpen.gif" align="absMiddle" border="0"  alt="" /></span><img src="../Load.ashx?type=theme&file=tbdown.gif" align="absMiddle" border="0"  alt="" /> <strong>Highlight</strong></td>
+                    <td>Highlights the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=numlist.gif" align="absMiddle" border="0"  alt="" /> <strong>Ordered List</strong></td>
+                    <td>Inserts an ordered list.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=bullist.gif" align="absMiddle" border="0"  alt="" /> <strong>Unordered List</strong></td>
+                    <td>Inserts an unordered list.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=indent.gif" align="absMiddle" border="0"  alt="" /> <strong>Indent</strong></td>
+                    <td>Indents the selected content.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=outdent.gif" align="absMiddle" border="0"  alt="" /> <strong>Outdent</strong></td>
+                    <td>Outdents the selected content.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=subscript.gif" align="absMiddle" border="0"  alt="" /> <strong>Subscript</strong></td>
+                    <td>Changes the selected text to subscript.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=superscript.gif" align="absMiddle" border="0"  alt="" /> <strong>Superscript</strong></td>
+                    <td>Changes the selected text to superscript.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=strike.gif" align="absMiddle" border="0"  alt="" /> <strong>Strike Through</strong></td>
+                    <td>Strikes through the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=Ucase.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Upper Case</strong></td>
+                    <td>Converts the selected text to upper case lettering.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=Ucase.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Lower Case</strong></td>
+                    <td>Converts the selected text to lower case lettering.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=rule.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert Rule</strong> </td>
+                    <td>Inserts a horizontal rule at the selected position in the editor.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=link.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert Link</strong></td>
+                    <td>Adds a link to the text on your page.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=ImageMap.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Add image map</strong></td>
+                    <td>Adds an image map.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=unlink.gif" align="absMiddle" border="0"  alt="" /> <strong>Remove Link</strong></td>
+                    <td>Removes the hyperlink from the selected content.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=anchor.gif" align="absMiddle" border="0"  alt="" /> <strong>Insert Anchor</strong></td>
+                    <td>Adds an anchor to the text on your page.</td>
+                </tr>
+                <tr>
+                    <td><strong><img src="../Load.ashx?type=theme&file=abspos.gif" align="absMiddle" border="0"  alt="" /></strong> <strong>Absolute Position</strong></td>
+                    <td>Fly text, pictures, tables... allows you to position any element anywhere on your page. </td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=forward.gif" align="absMiddle" border="0"  alt="" /> <strong>Bring Forward</strong></td>
+                    <td>Brings an item one position forward at a time.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=backward.gif" align="absMiddle" border="0"  alt="" /> <strong>Send Backward</strong></td>
+                    <td>Sends an item one position backwards at a time.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=borders.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Toggle Border</strong></td>
+                    <td>Toggles the visibility of borders.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=selectall.gif" align="absMiddle" border="0"  alt="" /> <strong>Select All</strong></td>
+                    <td>Selects all content.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=selectnone.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Select None</strong></td>
+                    <td>Selects no content.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=code.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>SyntaxHighlighter</strong></td>
+                    <td>Allows you to easily post syntax highlighted code.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=theme&file=help.gif" align="absMiddle" border="0"  alt="" />&nbsp;<strong>Help</strong></td>
+                    <td>Returns a help Toolbar Button. The help page URL is set by the HelpUrl Property.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=cssclass.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Cass&nbsp;drop-down menu changes the CSS class of the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=cssstyle.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Inline Style drop-down menu changes the CSS style of the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=paragraphdropdown.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Paragraph drop-down menu changes the paragraph style of the selected text.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=fontdropdown.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Font drop-down menu sets the font face. If a selection is active, the font formatting will be applied to it.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=sizedropdown.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Size drop-down menu sets the font size. If a selection is active, the font size formatting will be applied to it.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=linkdropdown.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Inserts predefined links in the current selection.</td>
+                </tr>
+                <tr>
+                    <td><img src="../Load.ashx?type=image&file=codedropdown.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Inserts predefined HTML code snippets in the current selection.</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;<img src="../Load.ashx?type=image&file=imagedropdown.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>&nbsp;Inserts predefined images in the current selection.</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;<img src="../Load.ashx?type=image&file=zoom.gif" align="absMiddle" border="0"  alt="" /></td>
+                    <td>Zoom drop-down menu allows selection of zoom-factor to your workspace. </td>
+                </tr>
+            </tbody>
+        </table>
+	</body>
+</html>

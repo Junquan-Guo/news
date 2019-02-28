@@ -1,0 +1,218 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>高校新闻</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="css/muban.css" type="text/css" />
+            <script src="jquery/jquery.js" ></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <!--头部-->
+            <div class="head">
+                <a href="#" title="点击一下，了解更多">
+                    <!--Logo-->
+                    <ul class="logo">
+                        <li>
+                            <img src="images/timg.png" /></li>
+                    </ul>
+                    <ul class="logo_title">
+                        <li class="logo_li">高校新闻</li>
+                        <li class="logo_li1">&nbsp;GAO&nbsp;XIAO&nbsp;XIN&nbsp;WEN</li>
+                        <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
+                    </ul>
+                </a>
+                <div class="search1">
+                    <!--search-->
+                    <asp:DropDownList ID="DropDownList1" runat="server" Height="38px" Style="margin-top: 0px" Width="78px">
+                        <asp:ListItem Value="all">全文</asp:ListItem>
+                        <asp:ListItem Value="content">新闻全文</asp:ListItem>
+                        <asp:ListItem Value="filename">新闻标题</asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:TextBox ID="txtsearch" runat="server"></asp:TextBox>
+                    <asp:Button ID="btnsearch" runat="server" Text="搜索" OnClick="btnsearch_Click" />
+                </div>
+                <div class="user">
+                    <a href="#">
+                        <asp:Image ID="Image1" runat="server" />
+                        <cite>
+                            <asp:Label ID="Labeluser" runat="server" OnClientClick="return false" Text="未登录"></asp:Label></cite>
+                    </a>
+                    <span class="layui-nav-more"></span>
+                </div>
+
+            </div>
+        </div>
+        <!--头部end-->
+
+        <div class="list">
+            <!--目录-->
+            <div class="top">
+                <ul>
+                    <li><a href="Default.aspx" target="_parent" title="网站首页" class="current">网站首页</a></li>
+                    <li><a href="Default2.aspx" target="_blank" title="大学四年">大学四年</a></li>
+                    <li><a href="#" target="_blank" title="校园生活">校园生活</a></li>
+                    <li><a href="#" target="_blank" title="兼职就业">兼职就业</a></li>
+                    <li><a href="#" target="_blank" title="考研考证">考研考证</a></li>
+                    <li><a href="#" target="_blank" title="教育学习">教育学习 </a></li>
+                    <li><a href="#" target="_blank" title="励志情感">励志情感</a></li>
+                    <li><a href="#" target="_blank" title="社会实践">社会实践</a></li>
+                    <li><a href="#" target="_blank" title="收藏夹">收藏夹</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--目录end-->
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+            <!--尾部-->
+            <div class="top">
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:newsConnectionString %>" SelectCommand="SELECT [typeid], [typename] FROM [type]"></asp:SqlDataSource>
+                <asp:DataList ID="DataList1" runat="server" DataKeyField="typeid" DataSourceID="SqlDataSource1" RepeatColumns="9" RepeatDirection="Horizontal">
+                    <ItemTemplate>
+                        <li>
+                            <asp:HyperLink ID="HyperLink1" runat="server" Target="_parent" NavigateUrl='<%# "~/Default2.aspx?fileid="+Eval("typeid") %>' Text='<%# Eval("typename") %>'>
+                            </asp:HyperLink>
+                        </li>
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
+        </div>
+        <!--footer end-->
+
+        <div class="end">
+            <br />
+            <br />
+            <br />
+            <p>责任编辑: 郭俊权XH12</p>
+            <a href="#">企业推广</a>-<a href="#"> 关于高校新闻</a>-<a href="#"> 免责声明 </a>-<a href="#"> 新闻源收录</a>-
+     	<a href="#">意见反馈及投诉 </a>-<a href="#">隐私政策</a>-<a href="http://www.12377.cn/" target="_blank">
+             <img src="images/jubao.png" width="17" height="12" /></a>&nbsp;&nbsp;<span>举报电话：010-56898600-4-7</span>
+            <p>© 2018 GAOXIAO.COM<a href="http://www.miibeian.gov.cn" target="_blank">京ICP证050897号</a></p>
+        </div>
+
+        <!--footer-bottom-->
+        <div class="footer-bottom">
+            <div class="bottom">
+                <ul>
+                    <li>班级：16软件3班</li>
+                    <li>学号：1630312</li>
+                    <li>姓名：郭俊权</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pop-up">
+            <div class="login_con">
+                <div class="user_title">登录</div>
+                <div>
+                    <asp:TextBox ID="txtmanagename" runat="server" placeholder="用户名/手机号"></asp:TextBox>
+                </div>
+                <div>
+                    <asp:TextBox ID="txtmanagepassword" runat="server" placeholder="密码" ></asp:TextBox>
+                </div>
+                <div class="form_check_ipt">
+                    <div class="check_left">
+                        <label>
+                            <asp:CheckBox ID="CheckBox1" runat="server"/> 下次自动登录
+                          </label>
+                    </div>
+                    <div class="check_right">
+                        <a href="#">忘记密码</a>
+                    </div>
+                </div>
+                <div>
+                    <asp:Button ID="btnlogin" runat="server" Text="登录" onclick="btnlogin_Click"/>
+                </div>
+                <div class="reg"><span>还没有帐号？</span><a href="register.aspx">立即注册</a></div>
+                <div class="close">
+                    <a href="#"><img src="images/guanbi.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="pop-up2">
+            <div class="user_xx">
+                <div class="user2">
+                    <a href="#">
+                        <asp:Image ID="Image2" runat="server" />
+                        <cite>
+                            <asp:Label ID="Label1" runat="server"  Text="未登录"></asp:Label>
+                        </cite>
+                        <cite>
+                            <asp:Label ID="Label2" runat="server"  Text="签  到"></asp:Label>
+                        </cite>
+                    </a>
+                </div>
+                <div class="tongzhi">
+                    <dl>
+                        <dt>1</dt>
+                        <dd>动态</dd>
+                    </dl>
+                    <dl>
+                        <dt>0</dt>
+                        <dd>关注</dd>
+                    </dl>
+                    <dl>
+                        <dt>0</dt>
+                        <dd>粉丝</dd>
+                    </dl>
+                </div>
+                <div class="xinxi">
+                    <dl>
+                        <dt>会员中心</dt>
+                        <dd>未订购></dd>
+                    </dl>
+                    <dl>
+                        <dt>等级</dt>
+                        <dd>Lv.7></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="HouTai/page/user/addUser.aspx">个人信息编辑</a></dt>
+                        <dd>></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="HouTai/page/user/changePwd.aspx">修改密码</a></dt>
+                        <dd>></dd>
+                    </dl>
+                </div>
+                <div>
+                    <asp:Button ID="Button1" runat="server" Text="注销" onclick="lbtnexit_Click"/>
+                </div>
+                <div class="close">
+                    <a href="#"><img src="images/guanbi.png" /></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $("#Labeluser").click(function () {
+                show();
+            });
+            function show() {
+                if ($("#Labeluser").text() == "未登录") {
+                    $(".pop-up").css("display", "block");
+                    var top = ($(window).height() - $(".login_con").height()) / 2
+                    $(".login_con").css("margin-top", top);
+                }
+                else {
+                    $(".pop-up2").css("display", "block");
+                }
+            }
+            $(".close a").click(function () {
+                $(".pop-up").css("display", "none");
+                $(".pop-up2").css("display", "none");
+            })
+        </script>
+    </form>
+</body>
+</html>

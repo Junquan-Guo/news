@@ -1,0 +1,103 @@
+form input.layui-input[disabled] {
+    background: #f2f2f2;
+    color: #595963!important;
+}
+
+.user_left {
+    width: 45%;
+    float: left;
+    margin: 20px 0 0 5%;
+}
+
+.user_right {
+    width: 25%;
+    float: left;
+    margin: 20px 0 0 5%;
+    text-align: center;
+}
+
+.user_right p {
+    margin: 10px 0 25px;
+    font-size: 12px;
+    text-align: center;
+    color: #FF5722;
+}
+
+.user_right img#userFace {
+    width: 200px;
+    height: 200px;
+}
+
+.layui-table, .layui-table th {
+    text-align: center;
+}
+
+.news_list tbody tr:first-child th{
+    background:#f3f2f0;
+}
+
+.news_list tbody tr:not(:first-child) td:nth-child(6){
+    text-align:left;
+    text-indent:2em;
+    padding:10px;
+}
+.news_list tbody tr:not(:first-child) td:not(:nth-child(6)){
+    text-align:center;
+}
+
+.news_list tbody tr:hover{
+    background:#f2f2f2;
+}
+
+/*用户列表*/
+.news_list .layui-btn, .news_list .layui-btn + .layui-btn {
+    margin: 2px 5px;
+}
+
+
+/*修改密码*/
+.changePwd {
+    width: 30%;
+}
+
+.bubufxPagerCss table
+{
+    text-align:center;
+    margin:auto;
+}
+.bubufxPagerCss table td
+{
+    border:0px;
+    padding:5px;
+}
+.bubufxPagerCss td
+{
+    border-bottom: #ffffff 3px solid;
+}
+
+.bubufxPagerCss tr td a:hover
+{
+    background-color: #F90;
+    color: #FFF;
+}
+
+.bubufxPagerCss a {
+    color: #F90;
+    text-decoration: none;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.bubufxPagerCss span {
+    color: #F90;
+    background-color: #ac1f24;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #333;
+}
+ 
+

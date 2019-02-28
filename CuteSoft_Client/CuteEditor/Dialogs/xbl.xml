@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl" xmlns:html="http://www.w3.org/1999/xhtml">
+<binding id="MyComponent" applyauthorstyles="true">
+	<implementation>
+		<constructor>
+			//<![CDATA[
+			(window.render_spring_image(this))
+			//]]>
+		</constructor>
+	</implementation>
+</binding>
+
+</bindings>

@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>[[PasteWord]]</title>		
+		<meta http-equiv="Page-Enter" content="blendTrans(Duration=0.1)" />
+		<meta http-equiv="Page-Exit" content="blendTrans(Duration=0.1)" />
+		<link href='Load.ashx?type=themecss&file=dialog.css&theme=[[_Theme_]]' type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="Load.ashx?type=dialogscript&file=DialogHead.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<table border="0" cellpadding="0" cellspacing="2" width="100%" height="360">
+				<tr>
+					<td>[[UseCtrl_VtoPaste]]</td>
+				</tr>
+				<tr>
+					<td style="height:100%">
+						<iframe id="idSource" name="idSource" src="Template.aspx" scrolling="auto" style="border:1px solid #999999; WIDTH: 440; HEIGHT: 100%;background-color:#ffffff;"></iframe>
+					</td>
+				</tr>
+			</table>
+			<div id="container-bottom">
+				<input type="button" id="Button2" name="insert" class="formbutton" value="[[Insert]]" onclick="insertContent();" />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="button" value="[[Cancel]]" class="formbutton" onclick="cancel();" id="Button1" name="Button1" />
+			</div>	
+    </div>
+	</body>
+	<script type="text/javascript" src="Load.ashx?type=dialogscript&file=DialogFoot.js"></script>
+	<script type="text/javascript" src="Load.ashx?type=dialogscript&file=Dialog_gecko_pasteword.js"></script>
+</html>

@@ -1,0 +1,73 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>[[Hyperlink_Information]] </title>		
+		<meta http-equiv="Page-Enter" content="blendTrans(Duration=0.1)" />
+		<meta http-equiv="Page-Exit" content="blendTrans(Duration=0.1)" />
+		<link href='Load.ashx?type=themecss&file=dialog.css&theme=[[_Theme_]]' type="text/css" rel="stylesheet" />
+		<!--[if IE]>
+			<link href="Load.ashx?type=style&file=IE.css" type="text/css" rel="stylesheet" />
+		<![endif]-->
+		<script type="text/javascript" src="Load.ashx?type=dialogscript&file=DialogHead.js"></script>
+		<style type="text/css">
+		    .btn {border: 1px solid buttonface;padding: 1px;width:14px;height: 12px;vertical-align: middle;}
+		    select,input,td {font-family: MS Sans Serif; font-size: 9pt; vertical-align: top;}
+		</style>
+	</head>
+	<body  style="margin:0px;border-width:0px;padding:4px;">
+		<table border="0" cellspacing="2" cellpadding="5" width="100%" style="text-align:center">
+			<tr>
+				<td>
+					<div>
+					<fieldset>
+						<table class="normal">
+							<tr>
+								<td style="width:60px">[[Url]]:</td>
+								<td><input type="text" id="inp_src" style="width:200px" /></td>
+								<td>
+								    <input id="btnbrowse" type="button" value="[[Browse]]" class="formbutton" />
+								</td>
+							</tr>
+							<tr>
+								<td style="width:60px">[[Title]]:</td>
+								<td colspan="2"><input type="text" id="inp_title" style="width:200px" /></td>
+							</tr>
+							<tr>
+								<td style="width:60px">[[Type]]:</td>
+								<td colspan="2">
+									<select id="sel_protocol" onchange="sel_protocol_change()">
+										<option value="http://">http://</option>
+										<option value="https://">https://</option>
+										<option value="ftp://">ftp://</option>
+										<option value="news://">news://</option>
+										<option value="mailto:">mailto:</option>
+										<!-- last one : if move this to front , change the script too -->
+										<option value="others">[[Other]]</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td style="width:60px">[[Target]]</td>
+								<td colspan="2">
+									<select id="inp_target" name="inp_target">
+										<option value="">[[NotSet]]</option>
+										<option value="_blank">[[Newwindow]]</option>
+										<option value="_self">[[Samewindow]]</option>
+										<option value="_top">[[Topmostwindow]]</option>
+										<option value="_parent">[[Parentwindow]]</option>
+									</select>
+								</td>
+							</tr>		
+						</table>
+					</fieldset>
+					</div>
+					<div style="margin-top:8px;width:60%; text-align:center">
+<input class="formbutton" type="button" value="[[Insert]]" style="width:80px" onclick="insert_link()" />&nbsp;&nbsp;
+<input class="formbutton" type="button" value="[[Cancel]]" style="width:80px" onclick="top.returnValue=false;top.close()" />
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+	<script type="text/javascript" src="Load.ashx?type=dialogscript&file=DialogFoot.js"></script>
+	<script type="text/javascript" src="Load.ashx?type=dialogscript&file=Dialog_MapLink.js"></script>
+</html>

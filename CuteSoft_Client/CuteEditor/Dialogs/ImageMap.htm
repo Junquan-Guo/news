@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>[[ImageMap]]</title>
+		
+		<meta http-equiv="Page-Enter" content="blendTrans(Duration=0.1)" />
+		<meta http-equiv="Page-Exit" content="blendTrans(Duration=0.1)" />
+		<link href='Load.ashx?type=themecss&file=dialog.css&theme=[[_Theme_]]' type="text/css" rel="stylesheet" />
+		<!--[if IE]>
+			<link href="Load.ashx?type=style&file=IE.css" type="text/css" rel="stylesheet" />
+		<![endif]-->
+		<script type="text/javascript" src="Load.ashx?type=dialogscript&file=DialogHead.js"></script>
+		<style type="text/css">
+		.row { HEIGHT: 22px }
+		.cb { VERTICAL-ALIGN: middle }
+		.itemimg { VERTICAL-ALIGN: middle }
+		.editimg { VERTICAL-ALIGN: middle }
+		.cell1 { VERTICAL-ALIGN: middle }
+		.cell2 { VERTICAL-ALIGN: middle }
+		.cell3 { PADDING-RIGHT: 4px; VERTICAL-ALIGN: middle; TEXT-ALIGN: right }
+		.cb { }
+		</style>
+	</head>
+	<body>
+		<table border="0" cellspacing="0" cellpadding="5" width="100%">
+			<tr>
+				<td style="padding:4px 0 1px 4px">
+				&nbsp;&nbsp;&nbsp; 
+<img src="Load.ashx?type=image&file=ImageMap.gif" onclick="newMap();" title="[[AddHotSpot]]"	class="dialogButton"  onmouseover="CuteEditor_ColorPicker_ButtonOver(this);" />
+<img src="Load.ashx?type=image&file=link.gif" onclick="Addlink(this);" title="[[insertlink]]"	class="dialogButton"  onmouseover="CuteEditor_ColorPicker_ButtonOver(this);" />
+<img id="img_zoom_in" src="Load.ashx?type=image&file=zoom_in.gif" onclick="Zoom_In();" title="[[ZoomIn]]"	class="dialogButton"  onmouseover="CuteEditor_ColorPicker_ButtonOver(this);" />
+<img id="img_zoom_out" src="Load.ashx?type=image&file=zoom_out.gif" onclick="Zoom_Out();" title="[[ZoomOut]]"	class="dialogButton" onmouseover="CuteEditor_ColorPicker_ButtonOver(this);"  />
+<img id="img_bestfit" src="Load.ashx?type=image&file=bestfit.gif" onclick="BestFit();" title="[[BestFit]]" class="dialogButton"  onmouseover="CuteEditor_ColorPicker_ButtonOver(this);" />
+<img id="img_actualsize" src="Load.ashx?type=image&file=Actualsize.gif" onclick="Actualsize();" title="[[ActualSize]]" class="dialogButton"  onmouseover="CuteEditor_ColorPicker_ButtonOver(this);" />
+				</td>
+			</tr>
+			<tr>
+				<td valign="top" style="height:280">
+					<iframe id="iframe" marginheight="1" marginwidth="1" src="../template.aspx" width="100%" scrolling="yes"
+						height="100%"></iframe>
+				</td>
+			</tr>
+			<tr>
+				<td class="dialogFooter" valign="top" align="right" style="PADDING-RIGHT: 13px; PADDING-LEFT: 13px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px">
+					<table cellspacing="0" cellpadding="1">
+						<tbody>
+							<tr>
+								<td>
+<input type="button"  class="formbutton" value="[[Update]]" onclick="do_insert()" />&nbsp;&nbsp; 
+<input type="button"  class="formbutton" value="[[Cancel]]" onclick="do_Close()" />&nbsp;
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+	<script type="text/javascript" src="Load.ashx?type=dialogscript&file=DialogFoot.js"></script>
+	<script type="text/javascript" src="Load.ashx?type=dialogscript&file=Dialog_ImageMap.js"></script>
+</html>
+

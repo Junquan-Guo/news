@@ -1,0 +1,296 @@
+﻿.content {
+    overflow: auto;
+}
+
+.all {
+    width: 1000px;
+    overflow: auto;
+    padding:0 20px 0 20px ;
+    border-left: 1px solid #d6d4cf;
+    border-right: 1px solid #d6d4cf;
+    background:#ffffff;
+    margin: 0 auto;
+}
+
+.left {
+    width: 270px;
+    height: 750px;
+    margin-top: 30px;
+    float: left;
+}
+
+.left_top, .left_cont {
+    width: 266px;
+    background: #eae9e6;
+    border: 1px solid #d6d4cf;
+}
+
+.left_top {
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+.left_top a {
+    color: #000000;
+    font: bold 16px 微软雅黑;
+    margin-left: 10px;
+}
+
+.left_top a:hover {
+    color: #F90;
+}
+
+.left_cont {
+    height: auto;
+    margin-top: 20px;
+    color: #999;
+    font: bold 14px 微软雅黑;
+}
+
+.left_cont2 {
+    width: 266px;
+    height: 50px;
+    color: #666;
+    cursor:pointer;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.left_cont2 a {
+    color: #666;
+    font: bold 18px 微软雅黑;
+    margin: 15px 0 0 10px;
+    line-height:50px;
+}
+
+.left_cont2 a:hover {
+    color: #F90;
+    cursor:pointer;
+}
+
+.left_cont2 img {
+    float: right;
+    border-radius:20px;
+    cursor:pointer;
+    margin: 15px 10px 0 0;
+}
+
+.hide {
+    display: none;
+}
+
+.item{
+	background:#ffffff;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.item dl {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.item dd {
+	line-height: 22px; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    font: initial 12px 微软雅黑;
+}
+.item dd:last-child {
+	color: #000000;
+}
+dd textarea {
+	height: 100px;
+	width: 150px;
+	border: 1px solid #909;
+	border-radius: 5px;
+}
+
+dl dd .num-limit {
+	color: #CCC;
+	float: right;
+	position: relative;
+	top: -30px;
+	font-size: 12px;
+	font-weight: lighter;
+	left: 100px;
+}
+dl dd input {
+	color: #FFF;
+	background-color: #090;
+	float: right;
+	margin-right: 30px;
+}
+
+.item dl dd span {
+	color: #066;
+	font-size: 10px;
+    margin-right:10px;
+	float: left;
+}
+.item dt {
+	float: left;
+}
+.item dt img {
+	width: 67px;
+	height: 67px;
+    border-radius:25px;
+    border:2px solid;
+	margin-right: 10px;
+	margin-left: 5px;
+    cursor:pointer;
+}
+ .item dl dd a {
+	color:#0972bc;
+
+}
+.item dl dd a:hover {
+	text-decoration: underline;
+}
+
+.right {
+    width: 700px;
+    margin: 30px 0;
+    float: right;
+}
+
+.right_top, .right_cont {
+    width: 696px;
+    background: #eae9e6;
+    border: 1px solid #ccc;
+}
+
+.right_top {
+    height: 40px;
+    font: bold 20px 微软雅黑;
+    line-height: 40px;
+    color: #000000;
+}
+
+.right_cont {
+    margin-top: 20px;
+}
+.right_title {
+    margin-top: 10px;
+    width: 696px;
+    height: 50px;
+}
+.right_title h1{
+    line-height: 50px;
+    color: #0972bc;
+    font-weight:bolder;    font-weight:bolder;
+    font-size: 24px;
+    padding-left: 120px;
+    font-weight: lighter;
+}
+.right_cont1 {
+    width: 696px;
+    height: 40px;
+    border-bottom: 1px solid #fff;
+}
+
+.right_cont1 h2 {
+    line-height: 40px;
+    color: #666;
+    font-size: 12px;
+    padding-left: 120px;
+    font-weight: lighter;
+}
+
+.right_cont1 h2 a {
+    color: #93F;
+    margin: 0;
+}
+
+.right_cont .right_cont2 p {
+    color: #000000;
+    line-height: 20px;
+    font-size: 14px;
+    text-indent: 2em;
+    margin-bottom: 15px;
+}
+
+.right_cont2 {
+    width:600px;
+    margin: 50px 0 0 48px;
+}
+
+.right_cont3 {
+    height: 50px;
+    border: 1px solid #FFF;
+    line-height: 50px;
+}
+
+.right_cont3 h3 {
+    color: #666;
+    margin-left: 50px;
+}
+
+.span_jieshao {
+    line-height: 40px;
+}
+
+#submit1 {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: #F90;
+    margin-top: 30px 0 0 130px;
+    color: #FFF;
+    background-color: #F90;
+}
+
+#submit1:hover {
+    background-color: #FC0;
+}
+
+.li_head {
+    font-size: 16px;
+    color: #F90;
+    margin-top: 15px 0;
+    font-weight: bold;
+}
+
+.li_head:hover {
+    color: #FC0;
+}
+
+.li_cont {
+    color: #FFF;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.a1 {
+    color: #000000;
+    margin-left: 20px;
+}
+
+.right_top a:hover {
+    color: #F90;
+}
+
+.neck {
+    width: 1000px;
+    height: 120px;
+}
+
+#txtjieshao {
+    resize: none;
+}
+
+#divname, #divphone, #divid, #divemail, #divqq, #divadd {
+    color: #F00;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 0 160px;
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<language name="Russian" key="ru" />
+	<language name="Swedish" key="sv" />
+	<language name="Chinese" key="zh-cn" />
+	<language name="Dutch" key="nl-NL" />
+	<language name="French" key="fr-FR" />
+	<language name="German" key="de-de" />
+	<language name="Italian" key="it-IT" />
+	<language name="Japanese" key="ja-JP" />
+	<language name="Norwegian" key="nb-NO" />
+	<language name="Portuguese" key="pt-pt" />
+	<language name="Spanish" key="es-es" />
+	<language name="U.S. English" key="en-en" />
+	<language name="Danish" key="da" />
+	<language name="Portuguese - Brazil" key="pt-BR" />
+	<language name="Russian - Russia" key="ru-RU" />
+	<language name="Swedish - Sweden" key="sv-SE" />
+	<language name="Hebrew" key="he" />
+</root>

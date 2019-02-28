@@ -1,0 +1,30 @@
+
+#EditorID {background-color:#D6D3CE!important; border: #999999 1px solid!important;}
+#EditorID IMG { border:0px;display:inline;}
+
+#EditorID .CuteEditorSelect { font:normal 11px Tahoma; margin-left:1px; margin-top:1px; height:21px; vertical-align:middle;}
+#EditorID .CuteEditorDropDown { float: left; border: #dddddd 1px solid;margin:2px 1px 1px 1px;}
+#EditorID .CuteEditorDropDown Span {font:normal 11px Tahoma;}
+#EditorID .CuteEditorToolbar {}
+#EditorID .CuteEditorToolBarContainer {padding:3px 2px 1px 3px;height:1px;overflow-y:visible;}
+#EditorID .CuteEditorFrameContainer {width:100%;height:100%;padding:0;margin:2px 0 0 0;}
+#EditorID .CuteEditorBottomBarContainer {padding:3px 3px 3px 3px;height:1px;overflow-y:visible;}
+#EditorID .CuteEditorGroupMenu {display: inline; float: left; height:24px; vertical-align:middle;}
+#EditorID .CuteEditorGroupMenuCell{background-image: url(images/horizontal.start.gif); background-repeat:no-repeat; background-position:left center;padding-left:7px;}
+#EditorID .CuteEditorGroupImage { margin:0; vertical-align:middle;float:left;}
+#EditorID .CuteEditorLineBreak {padding:0; height:0; margin:0}
+#EditorID .CuteEditorFrame {width:100%;height:100%;padding:0;border-top: #aaaaaa 1px solid!important;border-bottom: #999999 1px solid!important;border-left: #ffffff 0 solid!important;border-right: #ffffff 0 solid!important;}
+#EditorID .CuteEditorButton { margin:1px; vertical-align:middle;}
+#EditorID .CuteEditorButtonActive { margin:0; vertical-align:middle; border-right: buttonshadow 1px solid; border-top: buttonhighlight 1px solid; border-left: buttonhighlight 1px solid; border-bottom: buttonshadow 1px solid;}
+#EditorID .CuteEditorButtonOver { border-right: buttonshadow 1px solid; border-top: buttonhighlight 1px solid; border-left: buttonhighlight 1px solid; border-bottom: buttonshadow 1px solid; PADDING: 0; MARGIN: 0; vertical-align: middle;}
+#EditorID .CuteEditorButtonDown { border-right: buttonhighlight 1px solid!important; border-top: buttonshadow 1px solid!important; border-left: buttonshadow 1px solid!important; border-bottom: buttonhighlight 1px solid!important; margin:0;vertical-align:middle; }
+
+#EditorID .CuteEditorButtonDisabled { /* filter:gray alpha(opacity=25); margin:1px;vertical-align:middle; */ margin:1px;vertical-align:middle;}
+#EditorID .ToolControl{}
+#EditorID .ToolControlOver{}
+#EditorID .ToolControlDown{}
+#EditorID .separator {height:22px; background-repeat: no-repeat; vertical-align:middle; width:2px;margin-left:2px; margin-right:2px;	}
+
+/*case sensive for CSS1*/
+#EditorID #cmd_tofullpage.CuteEditorButtonActive { display:none }
+#EditorID #cmd_fromfullpage.CuteEditorButton { display:none }

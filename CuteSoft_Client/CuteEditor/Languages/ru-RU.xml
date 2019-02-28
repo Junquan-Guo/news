@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+<!--  fixed   --> 
+  <resource name="Normal">Нормальный</resource> 
+  <resource name="Definition Term">Определённый элемент</resource> 
+  <resource name="MenuList">Список меню</resource> 
+  <resource name="Heading 1">Заголовок 1</resource> 
+  <resource name="Heading 2">Заголовок 2</resource> 
+  <resource name="Heading 3">Заголовок 3</resource> 
+  <resource name="Heading 4">Заголовок 4</resource> 
+  <resource name="Heading 5">Заголовок 5</resource> 
+  <resource name="Heading 6">Заголовок 6</resource> 
+<!--  Buttons   --> 
+  <resource name="Save">Сохранить</resource> 
+  <resource name="New">Новый</resource> 
+  <resource name="Print">Печать</resource> 
+  <resource name="Cut">Вырезать</resource> 
+  <resource name="Copy">Копировать</resource> 
+  <resource name="Paste">Вставить</resource> 
+  <resource name="PasteText">Вставить текст</resource> 
+  <resource name="PasteWord">Вставить Word</resource> 
+  <resource name="Delete">Удалить</resource> 
+  <resource name="Undo">Отменить</resource> 
+  <resource name="Redo">Повторить</resource> 
+  <resource name="SelectAll">Выделить все</resource> 
+  <resource name="Toggleborder">Границы</resource> 
+  <resource name="AbsolutePosition">Абсолютная позиция</resource> 
+  <resource name="InsertHorizontalRule">Горизонтальная линия</resource> 
+  <resource name="insertlink">Вставить ссылку</resource> 
+  <resource name="UnLink">Удалить гиперссылку</resource> 
+  <resource name="InsertDocument">Загружаемые файлы</resource> 
+  <resource name="InsertChars">Спецсимволы</resource> 
+  <resource name="InsertEmotion">Добавить смайл</resource> 
+  <resource name="InsertText">Текст</resource> 
+  <resource name="InsertImage">Добавить картинку</resource> 
+  <resource name="InsertFlash">Вставить Flash</resource> 
+  <resource name="BringForward">На передний план</resource> 
+  <resource name="BringBackward">На задний план</resource> 
+  <resource name="TableDropDown">Таблица</resource> 
+  <resource name="InsertRow">Добавить строку</resource> 
+  <resource name="DeleteRow">Удалить строки</resource> 
+  <resource name="InsertColumn">Добавить ячейку</resource> 
+  <resource name="DeleteColumn">Удалить ячейки</resource> 
+  <resource name="InsertCell">Добавить ячейку</resource> 
+  <resource name="DeleteCell">Удалить ячейки</resource> 
+  <resource name="MergeCell">Объединить ячейки</resource> 
+  <resource name="SplitCell">Разбить ячейки</resource> 
+  <resource name="Bold">Полужирный текст</resource> 
+  <resource name="Italic">Курсив</resource> 
+  <resource name="Underline">Подчеркнуть текст</resource> 
+  <resource name="JustifyLeft">По левому краю</resource> 
+  <resource name="JustifyCenter">По центру</resource> 
+  <resource name="JustifyRight">По правому краю</resource> 
+  <resource name="ForeColor">Цвет шрифта</resource> 
+  <resource name="SetForeColor">Цвет шрифта</resource> 
+  <resource name="BackColor">Подсветка</resource> 
+  <resource name="SetBackColor">Выделение цветом</resource> 
+  <resource name="MoreColors">Дополнительные цвета...</resource> 
+  <resource name="InsertOrderedList">Нумерация</resource> 
+  <resource name="InsertUnorderedList">Маркеры</resource> 
+  <resource name="Indent">Отступ</resource> 
+  <resource name="Outdent">Уменьшить отступ</resource> 
+  <resource name="Subscript">Подстрочный текст</resource> 
+  <resource name="Superscript">Надстрочный текст</resource> 
+  <resource name="Strikethrough">Зачеркнуть текст</resource> 
+  <resource name="RemoveFormat">Убрать форматирование</resource> 
+  <resource name="CleanCode">Удалить форматирование Word</resource> 
+  <resource name="SelectNone">Отменить выделение</resource> 
+  <resource name="JustifyNone">Не выравнивать по ширине</resource> 
+  <resource name="JustifyFull">Выровнить полностью</resource> 
+  <resource name="InsertDate">Текущая дата</resource> 
+  <resource name="InsertTime">Вставить текущее время</resource> 
+  <resource name="Help">Помощь</resource> 
+  <resource name="Paragraph">Абзац</resource> 
+  <resource name="InsertParagraph">Абзац</resource> 
+  <resource name="FontName">Шрифт</resource> 
+  <resource name="FontSize">Размер</resource> 
+  <resource name="Zoom">Масштаб</resource> 
+  <resource name="CssClass">Класс стиля</resource> 
+  <resource name="CssStyle">Линейный Стиль</resource> 
+  <resource name="Links">Ссылки</resource> 
+  <resource name="Codes">Фрагмент кода</resource> 
+  <resource name="ToFullPage">Во весь экран</resource> 
+  <resource name="FromFullPage">Восстановление не работает</resource> 
+  <resource name="imagesDropdown">Картинки</resource> 
+  <resource name="DocumentPropertyPage">Свойства страницы</resource> 
+  <resource name="Preview">Предварительный просмотр</resource> 
+  <resource name="Cancel">Отмена</resource> 
+  <resource name="Properties">Свойства</resource> 
+  <resource name="Width">Ширина</resource> 
+  <resource name="Height">Высота</resource> 
+  <resource name="Transparency">Прозрачность</resource> 
+  <resource name="Quality">Качество</resource> 
+  <resource name="Upload">Картинка</resource> 
+  <resource name="Insert">Добавить</resource> 
+  <resource name="Alignment">Выравнивание</resource> 
+  <resource name="Border_Color">Цвет границы</resource> 
+  <resource name="Spacing">Интервал</resource> 
+  <resource name="Horizontal">Горизонтальный</resource> 
+  <resource name="Vertical">Вертикальный</resource> 
+  <resource name="Alternate">Дополнительный Текст</resource> 
+  <resource name="Hyperlink_Information">Информация Гиперсвязи</resource> 
+  <resource name="Title">Название(Право)</resource> 
+  <resource name="Target">Цель</resource> 
+  <resource name="Rows">Строки</resource> 
+  <resource name="Columns">Столбцы</resource> 
+  <resource name="TableAttribute">Свойства таблицы</resource> 
+  <resource name="Pixels">Пиксел</resource> 
+  <resource name="Percent">Процент</resource> 
+  <resource name="NotSet">Не установлено</resource> 
+  <resource name="Left">Влево</resource> 
+  <resource name="Right">Вправо</resource> 
+  <resource name="Texttop">По верхнему краю шрифта</resource> 
+  <resource name="Absmiddle">Абсолютно по центру</resource> 
+  <resource name="Baseline">Основная линия</resource> 
+  <resource name="Absbottom">Абсолютно внизу</resource> 
+  <resource name="Bottom">Внизу</resource> 
+  <resource name="Middle">Посередине</resource> 
+  <resource name="Top">Вверху</resource> 
+  <resource name="Bordersize">Размер границы</resource> 
+  <resource name="Backgroundcolor">Цвет фона</resource> 
+  <resource name="Cellspacing">Интервал ячеек</resource> 
+  <resource name="Bordercolor">Цвет границы</resource> 
+  <resource name="Cellpadding">Поля ячеек</resource> 
+  <resource name="EditRow">Строки Свойства</resource> 
+  <resource name="EditCell">Ячейка Свойства</resource> 
+  <resource name="InsertTemplate">Шаблоны Вставки</resource> 
+  <resource name="Description">Описание</resource> 
+  <resource name="Keywords">Ключевые слова</resource> 
+  <resource name="HtmlBase">Основное местоположение</resource> 
+  <resource name="InsertAnchor">Добавить указатель</resource> 
+  <resource name="InsertMedia">Добавить Медиа</resource> 
+  <resource name="ImageGalleryByBrowsing">Добавить картинку</resource> 
+  <resource name="Type">Типы</resource> 
+  <resource name="Size">Размер</resource> 
+  <resource name="All">Все</resource> 
+  <resource name="Send">Отправить</resource> 
+  <resource name="uploadResult">Загрузить результат</resource> 
+  <resource name="Createddate">Дата создания</resource> 
+  <resource name="Modifieddate">Дата изменения:</resource> 
+  <resource name="Next">Следующий</resource> 
+  <resource name="Prev">Предыдущий</resource> 
+  <resource name="Total">Всего</resource> 
+  <resource name="Images">Картинки</resource> 
+  <resource name="Name">Название картинки</resource> 
+  <resource name="Center">По центру</resource> 
+  <resource name="Attributes">Признаки</resource> 
+  <resource name="Newwindow">Новое окно</resource> 
+  <resource name="Topmostwindow">Верхнее окно</resource> 
+  <resource name="ShowControls">Показать средства управления</resource> 
+  <resource name="ShowStatusBar">Показать строку состояния</resource> 
+  <resource name="Edit">Редактировать</resource> 
+  <resource name="Formatting">Форматировать</resource> 
+  <resource name="Table">Таблица</resource> 
+  <resource name="Justify">Выровнять</resource> 
+  <resource name="Text">Текст</resource> 
+  <resource name="Layout">Слой</resource> 
+  <resource name="Other">Другой</resource> 
+  <resource name="Cursor">Курсор</resource> 
+  <resource name="Demo">Демонстрация</resource> 
+<!--  Buttons Image URL   --> 
+  <resource name="RemoveWordMarkup">Удалить все специально помеченные слова</resource> 
+  <resource name="low">Низкое</resource> 
+<!-- it is used in the "More Colors" dialog box  --> 
+  <resource name="TabIndex">Последовательность перехода</resource> 
+  <resource name="UniversalKeyboard">Универсальная клавиатура</resource> 
+<!-- it is used in the "Toolbar"   --> 
+  <resource name="TableProperties">Свойства</resource> 
+<!-- it is used in the "Properties" dialog box  --> 
+  <resource name="Table Wizard">Мастер таблиц</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!! Where is it?   --> 
+  <resource name="Indentation">Абзац</resource> 
+  <resource name="Tilingorizontal">Замостить в горизонтальном направлении</resource> 
+  <resource name="MarginWidth">Ширина поля</resource> 
+  <resource name="Background">Фон</resource> 
+  <resource name="Auto">Автоматически</resource> 
+  <resource name="lowercase">нижний регистр</resource> 
+  <resource name="InsertForm">Форма</resource> 
+  <resource name="Deletefiles">Удалить выбранные файлы/директории</resource> 
+  <resource name="SpecifyNewFolderName">Пожалуйста, задайте имя новой папке.</resource> 
+  <resource name="ListBox">Элемент список</resource> 
+  <resource name="ClearNone">Нет</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="ReduceMessage">Для продолжения сократите длину сообщения.</resource> 
+  <resource name="TagList">Теги</resource> 
+  <resource name="InvalidFileName">Имя файла не может содержать в себе следующие символы</resource> 
+  <resource name="HorRule">Горизонтальная линния</resource> 
+  <resource name="TableRules">Табличные линейки масштабирования</resource> 
+  <resource name="InsertRowTop">Вставить строку выше</resource> 
+  <resource name="Noborder">Нет границ</resource> 
+  <resource name="MergeRight">Объединить ячеки справа</resource> 
+  <resource name="Absolute">Абсолютный</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="CleanupFont">Убрать Font теги</resource> 
+  <resource name="RemoveWordTags">До вставки Word кода, Вы хотите устранить лишнее?</resource> 
+  <resource name="Input">Ввод</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="ZoomIn">Крупнее</resource> 
+  <resource name="LeftMargin">Левое поле</resource> 
+  <resource name="InsertInputhidden">Скрытое</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="InsertTable">Таблица</resource> 
+  <resource name="NotAailableinSafari">Это свойство не доступно в Safari.</resource> 
+  <resource name="UseApple_VtoPaste">Воспользуйтесь комбинацией Apple+V на клавиатуре для вставки текста в окно.</resource> 
+  <resource name="Pen">Перо</resource> 
+  <resource name="Image">Изображение</resource> 
+  <resource name="InsertLayer">Вставить слой</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="ItIsSlowThatSwitchToCode">Вы загружаете большую по объёму страницу. Это будет причиной медленной загрузки в Internet Explorer при использовании HTML просмотра.</resource> 
+  <resource name="Always">Всегда</resource> 
+  <resource name="InsertTextBox">Область текста</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="lr-tb">горизонтальный текст</resource> 
+  <resource name="FoldernameNotsupported">Имя папки не поддерживается! Пожалуйста, задайте имя папки в одно слово без пробелов и специальных символов.</resource> 
+  <resource name="Style">Стиль</resource> 
+  <resource name="smallcaption">Маленький заголовок</resource> 
+  <resource name="SystemFont">Системный шрифт</resource> 
+  <resource name="Replace All">Заменить все</resource> 
+  <resource name="UnableRename">Переименовать невозможно</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="NetSpell">Проверка правописания</resource> 
+  <resource name="Autoplay">Автопроигрывание</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="EncodingType">Кодировка</resource> 
+  <resource name="Borders">Границы</resource> 
+  <resource name="MaxLength">Максимальная длина</resource> 
+  <resource name="block">блок</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet. возможно "группа"  --> 
+  <resource name="InsertColumnLeft">Вставить колонку слева</resource> 
+  <resource name="DemoText">Демонстрационный текст</resource> 
+  <resource name="TextFlow">Текстовый поток</resource> 
+  <resource name="Link">Связь</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet. возможно "Соединение"  --> 
+  <resource name="CleanUpBox">Чистящий элемент</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="Position">Расположение</resource> 
+  <resource name="UseCtrl_VtoPaste">Используйте сочетание клавиш CTRL+V для вставки текста в окно.</resource> 
+  <resource name="SelectFile">Пожалуйста, выберите файл</resource> 
+  <resource name="drag-and-drop">Перетащить и оставить изображение на панели</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="ActualSize">Фактический размер</resource> 
+  <resource name="Thin">Тонкий</resource> 
+  <resource name="ClearRight">Справа</resource> 
+  <resource name="MoveDown">Опустить</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet. возможно "Ниже"  --> 
+  <resource name="UnableMovefile">Невозможно переместить файл.</resource> 
+  <resource name="WritingMode">Режим набора текста</resource> 
+  <resource name="ValidColor">Пожалуйста, введите правильное значение цвета.</resource> 
+  <resource name="Default">По умолчанию</resource> 
+  <resource name="AllowMultipleSelections">Допускается множественный выбор</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="ClearLeft">Слева</resource> 
+  <resource name="Table Designer">Конструктор таблиц</resource> 
+  <resource name="Decrease">Уменьшение окна редактирования</resource> 
+  <resource name="KeepLinebreaks">Сохранить обрывы строк</resource> 
+  <resource name="Erase">Стирать</resource> 
+  <resource name="Loop">Контур</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet. возможно "Цикл", "Петля"  --> 
+  <resource name="CleanupCSS">Убрать таблицы стилей</resource> 
+  <resource name="decoration">Декорирование</resource> 
+  <resource name="Common">Главный</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="Overline">Над линией</resource> 
+  <resource name="Checked">Проверенный</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet. возможно "Отмеченный"  --> 
+  <resource name="Break">Новая строка</resource> 
+  <resource name="PrintingBefore">Разрыв страницы вначале</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet. возможно "До"  --> 
+  <resource name="CopyMoveto">Наберите относительный путь назначения копирования:</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="SpecifyNewFileName">Пожалуста, задайте имя нового файла.</resource> 
+  <resource name="Createdirectory">Открыть новую директорию</resource> 
+  <resource name="Update">Обновить</resource> 
+  <resource name="Disabled">Запретить</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="Filter">Фильтр</resource> 
+  <resource name="statusbar">Строка текущего состояния</resource> 
+  <resource name="uploadSuccessfully">Файл загружен успешно!</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="Backgroundimage">Фоновое изображение</resource> 
+  <resource name="General">Главный</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check ending yet  --> 
+  <resource name="FontFamily">Семейство шрифтов</resource> 
+  <resource name="OverflowAuto">Если необходимо, используйте линейку прокрутки</resource> 
+  <resource name="Scrolling">Прокрутка</resource> 
+  <resource name="Capitalization">Применение заглавных букв</resource> 
+  <resource name="ImagetooSmall">Изображение слишком маленькое для показа эскиза!</resource> 
+  <resource name="AddLinktoImageMap">Добавить гиперссылку для этой горячей точки</resource> 
+  <resource name="InsertInputPassword">Поле для пароля</resource> 
+  <resource name="AutoStart">Автозапуск</resource> 
+  <resource name="InsertInputText">Текстовое поле</resource> 
+  <resource name="Match case">Учитывать регистр</resource> 
+  <resource name="SelecttoCreateImageMap">Пожалуйста, выберите изображение для открытия карты изображения</resource> 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I shell check yet  --> 
+  <resource name="GridLayoutPanel">Панель маркировочной сетки</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="FloatRight">Справа</resource> 
+  <resource name="Scale">Масштаб</resource> 
+<!-- !!! I shell check yet. возможно "Шкала"  --> 
+  <resource name="BlockDirLTR">Направление слева на право</resource> 
+  <resource name="StyleBuilder">Компоновщик стиля</resource> 
+  <resource name="lcase">Нижний регистр</resource> 
+  <resource name="AreyouSureDelete">Вы хотите удалить выбранные папки и/или файлы?</resource> 
+  <resource name="ModifyTable">Изменить таблицу</resource> 
+  <resource name="drawtransparentrectangle">Нарисовать прозрачный прямоугольник</resource> 
+  <resource name="AreYouSureToDiscardChanges">Ваши изменеия не будут приняты.</resource> 
+  <resource name="InsertRowBottom">Вставить строку ниже</resource> 
+  <resource name="UnableCreateFolder">Невозможно открыть папку.</resource> 
+  <resource name="BlockDirRTL">Направление справа на лево</resource> 
+  <resource name="NoPermission">Недопустимо. Вы не имеете разрешений для доступа к этой функции.</resource> 
+  <resource name="Float">Свободно перемещать</resource> 
+<!-- !!! I shell check yet. возможно "Плавающий"  --> 
+  <resource name="Browse">Обзор...</resource> 
+  <resource name="Tilingboth">Замостить в обоих направлениях</resource> 
+  <resource name="Text-Align">Выравнивание текста</resource> 
+  <resource name="InsertInputSubmit">Кнопка передачи</resource> 
+  <resource name="drawrectangle">Нарисовать прямоугольник</resource> 
+  <resource name="UseCtrl_V">Используйте Ctrl+V</resource> 
+  <resource name="CodeEditor">Просмотр/редактирование исходного текста</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="ZoomOut">Уменьшить</resource> 
+<!-- !!! I shell check yet. возможно "Меньше", "Мельче"  --> 
+  <resource name="OnlyWebColor">Только web-цвета</resource> 
+  <resource name="UnableCopyfile">Копирование файлов невозможно.</resource> 
+  <resource name="Find Next">Найти следующее</resource> 
+  <resource name="UnableDeletefile">Удаление файлов невозможно.</resource> 
+  <resource name="UnableUploadfile">Загрузка файла невозможна.</resource> 
+  <resource name="Method">Метод</resource> 
+<!-- !!! I shell check yet. возможно "Способ"  --> 
+  <resource name="drawellipse">Нарисовать эллипс</resource> 
+  <resource name="uppercase">ВЕРХНИЙ РЕГИСТР</resource> 
+  <resource name="AutoThumbnail">Автопоказ эскизов</resource> 
+  <resource name="Rename">Переименовать</resource> 
+  <resource name="FloatLeft">Слева</resource> 
+  <resource name="Menu">Текстовое меню</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="Letters">Буквы</resource> 
+<!-- !!! I shell check yet. возможно "Письма"  --> 
+  <resource name="Under">Подчёркивание</resource> 
+  <resource name="Summary">Резюме</resource> 
+<!-- !!! I shell check yet. возможно "Сводка"  --> 
+  <resource name="drawtransparentellipse">Нарисовать прозрачный эллипс</resource> 
+  <resource name="Items">Элементы</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="Rotate">Вращать</resource> 
+  <resource name="Clear">Очищать</resource> 
+<!-- !!! I shell check yet. возможно "Убрать", "Очистить"  --> 
+  <resource name="Reload">Перегрузить</resource> 
+  <resource name="NewGraphic">Новый графический образ</resource> 
+<!-- !!! I shell check yet. возможно "Изображение"  --> 
+  <resource name="Table layout">Макет таблицы</resource> 
+  <resource name="Resizeto">Изменить размеря до</resource> 
+  <resource name="TextDirection">Направление текста</resource> 
+  <resource name="GroupBox">Элемент группы</resource> 
+  <resource name="PrintingAfter">Разрыв страницы после</resource> 
+  <resource name="InitialCap">Заглавня буква</resource> 
+  <resource name="UseApple_C">Используйте Apple+C</resource> 
+  <resource name="Media">Медиа</resource> 
+  <resource name="MoveUp">Подвинуть вверх</resource> 
+  <resource name="SelectAnchor">Выбрать указатель с именем на главную страницу</resource> 
+  <resource name="InsertInputReset">Кнопка сброса</resource> 
+  <resource name="UseApple_X">Используйте Apple+X</resource> 
+  <resource name="UseApple_V">Используйте Apple+V</resource> 
+  <resource name="BorderColorLight">Цвет границы светлый</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="OrderedList">Упорядоченный список</resource> 
+  <resource name="Padding">Дополнение пробелами</resource> 
+  <resource name="Refresh">Обновить</resource> 
+  <resource name="filphorizontal">Повернуть на 180 градусов горизонтально</resource> 
+  <resource name="ucase">Верхний регистр</resource> 
+  <resource name="InsertInputButton">Кнопка</resource> 
+  <resource name="Icon">Обозначения иконки</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="TextBox">Текстовое поле</resource> 
+  <resource name="Verbs">Глаголы</resource> 
+  <resource name="Medium">В середине</resource> 
+  <resource name="Tiling">Замостить</resource> 
+  <resource name="OverflowHidden">Контент вырезан</resource> 
+  <resource name="BorderColorDark">Цвет границы темный</resource> 
+  <resource name="ChangeToTH">Сменить на верхнюю ячейку</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="FinishedSearch">Cute Editor закончил поиск документа.</resource> 
+  <resource name="InsertFieldSet">Вставить поле группы</resource> 
+  <resource name="Font">Шрифт</resource> 
+  <resource name="RemoveHTMLTags">Удалить все HTML теги</resource> 
+  <resource name="SelectImagetoThumbnail">Пожалуйста, выберите изображение для генерации эскиза</resource> 
+  <resource name="HorSplitCell">Разделить ячейки справа</resource> 
+  <resource name="thumbnailSuccessfully">Эскиз был создан успешно!</resource> 
+  <resource name="high">Выше</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="Scrollingbackground">Прокрутка фона</resource> 
+  <resource name="ScrollingFixed">Неподвижный фон</resource> 
+  <resource name="RotateLeft90">Повернуть на 90 градусов на лево</resource> 
+  <resource name="Parentwindow">Родительское окно</resource> 
+  <resource name="ImageMap">Добавить карту изображения</resource> 
+  <resource name="LineBreak">Разрыв линии</resource> 
+  <resource name="Find what">Найти что</resource> 
+  <resource name="FilenameNotsupported">Имя файла не поддерживается! Пожалуйста, задайте имя файла одним словом без пробелов или специальных символов.</resource> 
+  <resource name="Move">Переместить</resource> 
+  <resource name="RotateRight90">Повернуть на 90 градусов направо</resource> 
+  <resource name="messagebox">Окно сообщения</resource> 
+  <resource name="BottomMargin">Нижнее поле</resource> 
+  <resource name="FloatNone">Нет</resource> 
+  <resource name="RemoveNode">Удалить тег</resource> 
+  <resource name="BoxFormatting">Окно форматирования</resource> 
+  <resource name="SelectImagetoInsert">Пожалуйста, выберите изображение для вставки</resource> 
+  <resource name="AccessKey">Ускоряющая клавиша</resource> 
+  <resource name="Relative">Относительный</resource> 
+  <resource name="CollapseBorder">Свернуть границы таблицы</resource> 
+  <resource name="ClearBoth">Обе</resource> 
+  <resource name="Action">Действие</resource> 
+  <resource name="Wrap">Переход на новую строку</resource> 
+  <resource name="Exactfit">Точное соответствие</resource> 
+  <resource name="UnorderedList">Неупорядоченный список</resource> 
+  <resource name="Movefiles">Переместить выбранные файлы/директории</resource> 
+  <resource name="ImageEditor">Online редактор изображения</resource> 
+  <resource name="FolderWithNameExist">Папка с таким именем уже существует!</resource> 
+  <resource name="Margin">Поле</resource> 
+  <resource name="OverflowVisible">Контент не вырезан</resource> 
+  <resource name="Samewindow">Идентичное окно</resource> 
+  <resource name="InsertCheckBox">Флаговая кнопка</resource> 
+  <resource name="None">Нет</resource> 
+  <resource name="AutoSizing">Авторазмер</resource> 
+  <resource name="Template">Шаблон</resource> 
+  <resource name="Angle">Угол</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="Misc">Разнообразный</resource> 
+  <resource name="Saveas">Сохранить как</resource> 
+  <resource name="OR">или</resource> 
+  <resource name="CleanupSpan">Очистить интервал тегов</resource> 
+  <resource name="Replace with">Заменить на</resource> 
+  <resource name="OuterEditor">Внешний редактор</resource> 
+  <resource name="TemplateCreatedSuccessfully">Шаблон создан успешно!</resource> 
+  <resource name="Advanced">Улучшенный</resource> 
+<!-- !!! I shell check yet. возможно "Расширенный"  --> 
+  <resource name="NoTiling">Не мостить</resource> 
+  <resource name="InsertListBox">Окно списка</resource> 
+  <resource name="Display">Отобразить</resource> 
+  <resource name="alert_MaxHTMLLength">Добавляемый HTML код достиг предела для этого поля:</resource> 
+  <resource name="Count">Подсчёт</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="Finish">Окончание</resource> 
+  <resource name="Resize">Изменить размеры</resource> 
+  <resource name="Color">Цвет</resource> 
+  <resource name="filpvertical">Повернуть на 180 градусов по вертикали</resource> 
+  <resource name="FormatBlock">Параграф</resource> 
+  <resource name="Enlarge">Увеличить окно редактирования</resource> 
+  <resource name="LTR">Слева на право</resource> 
+  <resource name="Rules">Линейки</resource> 
+  <resource name="Border_Thickness">Толщина границ</resource> 
+  <resource name="EditHtml">Редактировать HTML</resource> 
+  <resource name="AddHotSpot">Добавить горячие точки</resource> 
+  <resource name="Overflow">Переполнение</resource> 
+  <resource name="Tilingvertical">Замостить по вертикали</resource> 
+  <resource name="Select">Выбрать</resource> 
+  <resource name="UseCtrl_X">Используйте Ctrl+X</resource> 
+  <resource name="TypeTextHere">Набрать текст здесь</resource> 
+  <resource name="FileWithNameExist">Файл с таким именем уже существует!</resource> 
+  <resource name="ValidID">Идентификаторы могут содержать только буквы и числа. Пробелы не допускаются.</resource> 
+  <resource name="Find">Найти и заменить</resource> 
+  <resource name="MergeBottom">Соединить ячейки внизу</resource> 
+  <resource name="Justification">Выравнивание</resource> 
+  <resource name="VerSplitCell">Разбить ячейки внизу</resource> 
+  <resource name="longDesc">Большое описание</resource> 
+  <resource name="Border">Граница</resource> 
+  <resource name="Caption">Заголовок</resource> 
+  <resource name="NewTemplate">Создать шаблон</resource> 
+  <resource name="Clipping">Вырезание</resource> 
+  <resource name="BestFit">Лучшее соответствие</resource> 
+  <resource name="InsertPageBreak">Разрыв печатной страницы</resource> 
+  <resource name="SelectImagetoEdit">Пожалуйста, выберите изображение для редактирования</resource> 
+  <resource name="FileformatNotsupported">Невозможно загрузить файл. Формат файла не поддерживается.</resource> 
+  <resource name="InsertColumnRight">Вставить колонку справа</resource> 
+  <resource name="PleaseSelectRegion">Пожалуйста, выберите область</resource> 
+  <resource name="MarginHeight">Высота поля</resource> 
+  <resource name="Replace">Заменить</resource> 
+  <resource name="Thick">Толстый</resource> 
+  <resource name="DrawLine">Нарисовать линию</resource> 
+  <resource name="ValidNumber">Пожалуйста, введите правильное число.</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="alert_MaxTextLength">Добавляемый текст достиг предела количества символов для этого поля:</resource> 
+  <resource name="InsertInputImage">Кнопка с изображением</resource> 
+  <resource name="Value">Значение</resource> 
+  <resource name="tb-rl">вертикальный текст</resource> 
+  <resource name="InsertDropDown">Ниспадающее текстовое поле</resource> 
+  <resource name="ValidName">Пожалуйста, введите правильное имя.</resource> 
+  <resource name="Match whole word">Сопоставление только целого слова</resource> 
+<!-- !!! I shell check yet  --> 
+  <resource name="ChangeToTD">Переместить в ячейку таблицы</resource> 
+  <resource name="Chars">Символы</resource> 
+  <resource name="Copyfiles">Копировать выбранные файлы/директории</resource> 
+  <resource name="EditInNewWindow">Редактировать в новом окне</resource> 
+  <resource name="InsertRadioBox">Селективная кнопка</resource> 
+  <resource name="Draw Table">Нарисовать таблицу</resource> 
+  <resource name="ImageBrowsing">Обзор изображений</resource> 
+  <resource name="Shade">Затенять</resource> 
+<!-- !!! I shell check yet. возможно "Экран"  --> 
+  <resource name="RightMargin">Правое поле</resource> 
+  <resource name="PageLanguage">Язык</resource> 
+  <resource name="OverflowScroll">Всегда использовать линейку прокрутки</resource> 
+  <resource name="RTL">Справа на лево</resource> 
+  <resource name="UseCtrl_C">Используйте Ctrl+C</resource> 
+  <resource name="DeleteNode">Удалить все</resource> 
+  <resource name="Crop">Обрезать</resource> 
+  <resource name="ResetCells">Восстановить ячейки</resource> 
+  <resource name="HTMLEncoding">Кодировка HTML</resource> 
+  <resource name="TableBorder">Граница таблицы</resource> 
+  <resource name="TopMargin">Верхнее поле</resource> 
+  <resource name="Readonly">Только для чтения</resource> 
+  <resource name="Document">Документ</resource> 
+  <resource name="List">Список</resource> 
+
+<!-- Don't translate this section -->
+	<resource name="BoldImage">bold.gif</resource>
+	<resource name="PreviewImage">preview.gif</resource>
+	<resource name="DesignImage">design.gif</resource>
+	<resource name="HtmlImage">htmlview.gif</resource>
+	<resource name="UnderImage">under.gif</resource>
+	<resource name="SelectFileDialogOption">status:0;help:0;resizable:0;dialogWidth:560px;dialogHeight:550px;</resource>
+
+	<!-- may or maynot translate -->
+	<resource name="THEAD">Thead</resource>
+	<resource name="TFOOT">Tfoot</resource>
+	<resource name="TR">TR</resource>
+	<resource name="TD">TD</resource>
+
+	<resource name="Url">Url</resource>
+	<resource name="Src">Src</resource>
+	<resource name="HTML">HTML</resource>
+	<resource name="ID">ID</resource>
+
+<!-- Duplicate Keys in Lower/Upper case  --> 
+  <resource name="Low">Низкое</resource> 
+  <resource name="Ucase">Верхний регистр</resource> 
+  <resource name="High">Выше</resource> 
+  <resource name="Lcase">Нижний регистр</resource> 
+  <resource name="SelecttoEditImage">Пожалуйста, выберите изображение для редактирования</resource> 
+  <resource name="Insertlink">Вставить ссылку</resource> 
+  <resource name="Unlink">Удалить гиперссылку</resource> 
+
+<!-- same wording as in English -->
+<resource name="Formatted">Formatted</resource>  
+<resource name="Flash">Flash</resource>  
+<resource name="Link_Color">Link Color</resource>  
+<resource name="Automatic">Automatic</resource>  
+<resource name="Address">Address</resource>  
+<resource name="OK">OK</resource>  
+
+<!-- Feel free to translate this section below -->
+<resource name="CellScope">Cell Scope</resource>  
+<resource name="SelectImageDialogOption">dialogWidth:590px;dialogHeight:510px;</resource>  
+<resource name="ConstrainProportions">Constrain Proportions</resource>  
+<resource name="InputRequired">Input Required:</resource>  
+<resource name="Red">Red</resource>  
+<resource name="Header-Footer-3-Columns">Header, Footer and 3 Columns</resource>  
+<resource name="Decoration">Decoration</resource>  
+<resource name="WebPalette">Web Palette</resource>  
+<resource name="SelectColor">Select a color</resource>  
+<resource name="YouTubeRel">Include related videos</resource>  
+<resource name="CellPadding">Cell padding</resource>  
+<resource name="noWrap">noWrap</resource>  
+<resource name="WordNotFound">Word not found. Nothing replaced.</resource>  
+<resource name="WrongFormatImage">The Image Format is Wrong!</resource>  
+<resource name="maxRequestLengthExceeded">Maximum request length exceeded.The default value for the maxRequestLength parameter in the httpRuntime section of the Web.Config file is 4096 (4 MB). As a result, files that are larger than this value are not uploaded by default. </resource>  
+<resource name="2ColumnTable">Two-Column Table</resource>  
+<resource name="EditList">List Properties</resource>  
+<resource name="Green">Green</resource>  
+<resource name="on">on</resource>  
+<resource name="WindowlessVideo">WindowlessVideo</resource>  
+<resource name="pixels">pixels</resource>  
+<resource name="SortByDateDesc">Date Desc</resource>  
+<resource name="Close">Close</resource>  
+<resource name="Recent">Recent</resource>  
+<resource name="CustomBullet">Custom bullet</resource>  
+<resource name="SortByDateAsc">Date Asc</resource>  
+<resource name="AllowFullScreen">Allow Full Screen</resource>  
+<resource name="WordReplaced">Word(s) were replaced</resource>  
+<resource name="Words">Words</resource>  
+<resource name="SortBySizeDesc">Size Desc</resource>  
+<resource name="Header-Left-TopRight-Body">Header, Left, Top Right and Body</resource>  
+<resource name="Characters">Characters</resource>  
+<resource name="Sort">Sort</resource>  
+<resource name="off">off</resource>  
+<resource name="PasteYouTube">Paste the YouTube Embed code here</resource>  
+<resource name="ImageFileIsTooLarge">The uploaded image is too large. The max image file size of this web site is set to: </resource>  
+<resource name="Circle">Circle</resource>  
+<resource name="AutomaticImageResizeOnOff">Auto resize uploaded images function is</resource>  
+<resource name="PasteAsHTML">Paste As HTML</resource>  
+<resource name="Used">Used</resource>  
+<resource name="White">White</resource>  
+<resource name="Header-Right-TopLeft-Body">Header, Right, Top Left and Body</resource>  
+<resource name="TemplateCreated">Template created successfully!</resource>  
+<resource name="StartingNumber">Starting Number</resource>  
+<resource name="Orange">Orange</resource>  
+<resource name="Loading">Loading...</resource>  
+<resource name="TemplateModified">Template modified successfully!</resource>  
+<resource name="Cyan">Cyan</resource>  
+<resource name="CustomColor">Custom Color</resource>  
+<resource name="MaxFileSizeAllowed">Max file size allowed</resource>  
+<resource name="BorderColor">Border color</resource>  
+<resource name="3ColumnTable">Three-Column Table</resource>  
+<resource name="YouTube">Embed a YouTube video</resource>  
+<resource name="1ColumnTable">One-Column Table</resource>  
+<resource name="MaxImagedImension">Max image dimension is</resource>  
+<resource name="DIV">DIV</resource>  
+<resource name="Purple">Purple</resource>  
+<resource name="ActiveXObject">Object</resource>  
+<resource name="Square">Square</resource>  
+<resource name="Blue">Blue</resource>  
+<resource name="EditorEmpty">\nEditor is empty.\n\nNothing to clean up.</resource>  
+<resource name="MaxFolderSizeAllowed">Max Upload folder size is </resource>  
+<resource name="ShowBorder">Show Border</resource>  
+<resource name="Black">Black</resource>  
+<resource name="CellSpacing">Cell spacing</resource>  
+<resource name="Uploading">Uploading...</resource>  
+<resource name="SortBySizeAsc">Size Asc</resource>  
+<resource name="NamedColors">Named Colors </resource>  
+
+</resources>

@@ -1,0 +1,9 @@
+﻿body{list-style:none; text-decoration:none;}
+body,div,h1,h2,h3,h4,h5,h6,p,img,ul,ol,li{margin:0;padding:0;}
+body{font-family:"宋体",Arial, Helvetica;font-size:12px;}
+body a:link{ text-decoration:none;}
+li,ul,ol{list-style-type:none; }
+a,a:hover{text-decoration:none;}
+img{border:none;}
+.clear{clear:both;}
+.content{width:100%;margin:0 auto; background-color:#f6f5f4;}
