@@ -1,5 +1,5 @@
 # news
-    ASP期末作业：《新闻网站》
+    ASP.net：《新闻网站》
 -------------------------------------------------------------------------------------------------------------------------------
 ### 前台页面<br>
 <img src="https://github.com/Junquan-Guo/news/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/Default_%E6%95%88%E6%9E%9C%E5%9B%BE.png" height="400"/>   <img src="https://github.com/Junquan-Guo/news/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/Default2_%E6%95%88%E6%9E%9C%E5%9B%BE.png" height="400" />   <img src="https://github.com/Junquan-Guo/news/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/Default3_%E6%95%88%E6%9E%9C%E5%9B%BE.png" height="400"/>  <img src="https://github.com/Junquan-Guo/news/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/readfile_%E6%9C%AA%E7%99%BB%E5%BD%95%E6%95%88%E6%9E%9C%E5%9B%BE.png" height="400"/>
